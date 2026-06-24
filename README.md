@@ -2,6 +2,8 @@
 
 ![Circuit](./Circuit.png)
 
+[Digital Game File](./Digital/Ultimate_Bomb.dig)
+
 指導教授：吳昭正 副教授
 
 ## 組員
