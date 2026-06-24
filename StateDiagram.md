@@ -22,9 +22,9 @@ stateDiagram-v2
     game --> check_pass : EN=1 (玩家輸入並送出猜測)
 
     %% 密碼比對邏輯
-    check_pass --> game : Pass_Gt=1 或 Pass_Lt=1 \n (猜錯，更新上下限繼續猜)
-    check_pass --> next_bomb : Pass_Match=1 且 Win_Flag=0 \n (猜中，但關卡還沒滿，繼續下一顆)
-    check_pass --> game_win : Pass_Match=1 且 Win_Flag=1 \n (猜中，且達成通關條件)
+    check_pass --> game : Pass_Gt=1 或 Pass_Lt=1 <br> (猜錯，更新上下限繼續猜)
+    check_pass --> next_bomb : Pass_Match=1 且 Win_Flag=0 <br> (猜中，但關卡還沒滿，繼續下一顆)
+    check_pass --> game_win : Pass_Match=1 且 Win_Flag=1 <br> (猜中，且達成通關條件)
 
     %% 時間超時邏輯 (涵蓋所有遊戲中狀態)
     game --> game_lose : Time_Out=1
