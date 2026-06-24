@@ -2736,7 +2736,7 @@ end Behavioral;</string>
           <value v="170" z="false"/>
         </entry>
       </elementAttributes>
-      <pos x="40" y="440"/>
+      <pos x="40" y="460"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -2853,7 +2853,7 @@ end Behavioral;</string>
           <int>8</int>
         </entry>
       </elementAttributes>
-      <pos x="180" y="440"/>
+      <pos x="180" y="460"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -2962,10 +2962,6 @@ end Behavioral;</string>
       <p2 x="400" y="200"/>
     </wire>
     <wire>
-      <p1 x="60" y="460"/>
-      <p2 x="180" y="460"/>
-    </wire>
-    <wire>
       <p1 x="980" y="460"/>
       <p2 x="1280" y="460"/>
     </wire>
@@ -2986,8 +2982,8 @@ end Behavioral;</string>
       <p2 x="460" y="460"/>
     </wire>
     <wire>
-      <p1 x="240" y="460"/>
-      <p2 x="300" y="460"/>
+      <p1 x="40" y="460"/>
+      <p2 x="180" y="460"/>
     </wire>
     <wire>
       <p1 x="1340" y="780"/>
@@ -3166,6 +3162,14 @@ end Behavioral;</string>
       <p2 x="100" y="220"/>
     </wire>
     <wire>
+      <p1 x="240" y="480"/>
+      <p2 x="300" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="60" y="480"/>
+      <p2 x="180" y="480"/>
+    </wire>
+    <wire>
       <p1 x="980" y="480"/>
       <p2 x="1440" y="480"/>
     </wire>
@@ -3198,16 +3202,16 @@ end Behavioral;</string>
       <p2 x="140" y="160"/>
     </wire>
     <wire>
+      <p1 x="160" y="420"/>
+      <p2 x="200" y="420"/>
+    </wire>
+    <wire>
       <p1 x="800" y="420"/>
       <p2 x="1080" y="420"/>
     </wire>
     <wire>
       <p1 x="680" y="420"/>
       <p2 x="700" y="420"/>
-    </wire>
-    <wire>
-      <p1 x="160" y="420"/>
-      <p2 x="200" y="420"/>
     </wire>
     <wire>
       <p1 x="380" y="420"/>
@@ -3368,10 +3372,6 @@ end Behavioral;</string>
     <wire>
       <p1 x="60" y="820"/>
       <p2 x="860" y="820"/>
-    </wire>
-    <wire>
-      <p1 x="40" y="440"/>
-      <p2 x="180" y="440"/>
     </wire>
     <wire>
       <p1 x="1200" y="440"/>
@@ -3626,7 +3626,7 @@ end Behavioral;</string>
       <p2 x="1320" y="260"/>
     </wire>
     <wire>
-      <p1 x="300" y="460"/>
+      <p1 x="300" y="480"/>
       <p2 x="300" y="500"/>
     </wire>
     <wire>
@@ -3711,10 +3711,10 @@ end Behavioral;</string>
     </wire>
     <wire>
       <p1 x="60" y="220"/>
-      <p2 x="60" y="460"/>
+      <p2 x="60" y="480"/>
     </wire>
     <wire>
-      <p1 x="60" y="460"/>
+      <p1 x="60" y="480"/>
       <p2 x="60" y="820"/>
     </wire>
     <wire>

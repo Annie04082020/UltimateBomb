@@ -57,7 +57,7 @@ graph TD
     I_Switch -->|更新範圍| M_Min & M_Max
 
     %% 記憶 <-> 控制與運算
-    M_Mode -- "Mode (00~11)" --> C_Level & O_LED
+    M_Mode -- "Mode (00~11)" --> C_Level & O_LED & A_Timer
     C_FSM -- "Load_Min" --> M_Min
     C_FSM -- "Load_Max" --> M_Max
     M_Min -- "Min 值" --> O_7Seg
