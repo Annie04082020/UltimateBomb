@@ -1,6 +1,10 @@
+
+## 🧠 硬體核心狀態機 (Algorithmic State Machine Chart)
+
+本專案採用 **ASM Chart** 進行時序與資料路徑規劃，確保每一個「狀態方塊」與其附帶的「判斷條件」皆嚴格收斂於**單一 Clock 週期**內執行完畢。
+
 ```mermaid
-%%{ init: { 'flowchart': { 'curve': 'stepAfter' } } }%%
-flowchart TD
+graph TD
     %% 樣式定義 (GitHub 原生配色優化)
     classDef state fill:#E1F5FE,stroke:#03A9F4,stroke-width:2px,color:#000;
     classDef decision fill:#FFF9C4,stroke:#FBC02D,stroke-width:2px,color:#000;
