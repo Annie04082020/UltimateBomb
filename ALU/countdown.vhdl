@@ -37,11 +37,11 @@ begin
             ones <= "1001";
         elsif rising_edge(clk) then
             if add_flag = '1' then                
-              if (tens + 4) >= 9 then                  
+              if (tens + 3) >= 9 then                  
                  tens <= "1001";
                  ones <= "1001";
               else
-                 tens <= tens + 4;
+                 tens <= tens + 3;
               end if;
             elsif en = '1' then   -- 如果你目前全場只用一個 1Hz 時鐘，就直接這樣寫
                 if tens = 0 and ones = 0 then

@@ -102,11 +102,13 @@ begin
                     end if;
                     
                 when game =>
+                    Game_Run <= '1';
                     if EN = '1' and EN_prev = '0' then
                         current_state <= check_pass;
                     end if;
                     
                 when check_pass =>
+                    Game_Run <= '1';
                     if Pass_Gt = '1' then
                         Load_Max <= '1'; -- 叫外部暫存器鎖定新上限
                         current_state <= game;

@@ -1406,11 +1406,13 @@ begin
                     end if;
                     
                 when game =&gt;
+                    Game_Run &lt;= &apos;1&apos;;
                     if EN = &apos;1&apos; and EN_prev = &apos;0&apos; then
                         current_state &lt;= check_pass;
                     end if;
                     
                 when check_pass =&gt;
+                    Game_Run &lt;= &apos;1&apos;;
                     if Pass_Gt = &apos;1&apos; then
                         Load_Max &lt;= &apos;1&apos;; -- 叫外部暫存器鎖定新上限
                         current_state &lt;= game;
