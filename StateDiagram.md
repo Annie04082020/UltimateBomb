@@ -17,14 +17,14 @@ graph TD
     Start(( )) -->|開機或 Reset| idle
 
     %% 正常遊戲流程
-    idle -->|EN=1<br>(按下 Confirm 開始遊戲)| next_bomb
-    next_bomb -->|EN=1<br>(按下 Confirm 進入倒數)| game
-    game -->|EN=1<br>(玩家輸入並送出猜測)| check_pass
+    idle -->|"EN=1<br>(按下 Confirm 開始遊戲)"| next_bomb
+    next_bomb -->|"EN=1<br>(按下 Confirm 進入倒數)"| game
+    game -->|"EN=1<br>(玩家輸入並送出猜測)"| check_pass
 
     %% 密碼比對邏輯
-    check_pass -->|Pass_Gt=1 或 Pass_Lt=1<br>(猜錯，更新上下限繼續猜)| game
-    check_pass -->|Pass_Match=1 且 Win_Flag=0<br>(猜中，但關卡還沒滿，繼續下一顆)| next_bomb
-    check_pass -->|Pass_Match=1 且 Win_Flag=1<br>(猜中，且達成通關條件)| game_win
+    check_pass -->|"Pass_Gt=1 或 Pass_Lt=1<br>(猜錯，更新上下限繼續猜)"| game
+    check_pass -->|"Pass_Match=1 且 Win_Flag=0<br>(猜中，但關卡還沒滿，繼續下一顆)"| next_bomb
+    check_pass -->|"Pass_Match=1 且 Win_Flag=1<br>(猜中，且達成通關條件)"| game_win
 
     %% 時間超時邏輯 (涵蓋所有遊戲中狀態)
     game -->|Time_Out=1| game_lose
