@@ -100,6 +100,7 @@
 
   內建手刻的英文字型庫，將控制器的狀態碼解碼為 16 段顯示器的控制訊號，以英文單字 (`IDLE`, `NEXT`, `INPUT`, ` WIN `, `LOSE`, `ERROR`) 即時回饋遊戲狀態。
 - **遊戲輸入解碼器（Input Decoder）** - [BCD_2_decoder.vhdl](./Output_Unit/BCD_2_decoder.vhdl) 與 [BIN_decoder.vhdl](./Output_Unit/BIN_decoder.vhdl)：
+  
   根據選擇 `diff` 的難度模式，將玩家當前撥碼輸入以 8-bit BIN 訊號或兩個 4-bit BCD 訊號的方式解碼，若偵測到超過範圍的非法輸入 (如 A~F)，會直接觸發攔截機制。
 
 - **遊戲模式與關卡數顯示器（Mode and Score Display）**：
