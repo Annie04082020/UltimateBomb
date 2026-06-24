@@ -4,36 +4,36 @@
 您可以使用支援 Mermaid 的 Markdown 編輯器 (如 VSCode, Obsidian) 或貼到 [Mermaid Live Editor](https://mermaid.live/) 來預覽並匯出圖片。
 
 ```mermaid
-stateDiagram-v2
+graph TD
     %% 定義狀態節點
-    state "待機 (IDLE)" as idle
-    state "產生新密碼 (NEXT_BOMB)" as next_bomb
-    state "生死倒數 (GAME)" as game
-    state "檢查密碼 (CHECK_PASS)" as check_pass
-    state "遊戲勝利 (GAME_WIN)" as game_win
-    state "爆炸失敗 (GAME_LOSE)" as game_lose
+    idle(["待機 (IDLE)"])
+    next_bomb(["產生新密碼 (NEXT_BOMB)"])
+    game(["生死倒數 (GAME)"])
+    check_pass(["檢查密碼 (CHECK_PASS)"])
+    game_win(["遊戲勝利 (GAME_WIN)"])
+    game_lose(["爆炸失敗 (GAME_LOSE)"])
 
     %% 進入點
-    [*] --> idle : 開機或 Reset
+    Start(( )) -->|開機或 Reset| idle
 
     %% 正常遊戲流程
-    idle --> next_bomb : EN=1 (按下 Confirm 開始遊戲)
-    next_bomb --> game : EN=1 (按下 Confirm 進入倒數)
-    game --> check_pass : EN=1 (玩家輸入並送出猜測)
+    idle -->|EN=1<br>(按下 Confirm 開始遊戲)| next_bomb
+    next_bomb -->|EN=1<br>(按下 Confirm 進入倒數)| game
+    game -->|EN=1<br>(玩家輸入並送出猜測)| check_pass
 
     %% 密碼比對邏輯
-    check_pass --> game : Pass_Gt=1 或 Pass_Lt=1 <br> (猜錯，更新上下限繼續猜)
-    check_pass --> next_bomb : Pass_Match=1 且 Win_Flag=0 <br> (猜中，但關卡還沒滿，繼續下一顆)
-    check_pass --> game_win : Pass_Match=1 且 Win_Flag=1 <br> (猜中，且達成通關條件)
+    check_pass -->|Pass_Gt=1 或 Pass_Lt=1<br>(猜錯，更新上下限繼續猜)| game
+    check_pass -->|Pass_Match=1 且 Win_Flag=0<br>(猜中，但關卡還沒滿，繼續下一顆)| next_bomb
+    check_pass -->|Pass_Match=1 且 Win_Flag=1<br>(猜中，且達成通關條件)| game_win
 
     %% 時間超時邏輯 (涵蓋所有遊戲中狀態)
-    game --> game_lose : Time_Out=1
-    next_bomb --> game_lose : Time_Out=1
-    check_pass --> game_lose : Time_Out=1
+    game -->|Time_Out=1| game_lose
+    next_bomb -->|Time_Out=1| game_lose
+    check_pass -->|Time_Out=1| game_lose
 
     %% 結束狀態重置
-    game_win --> idle : Reset=1
-    game_lose --> idle : Reset=1
+    game_win -->|Reset=1| idle
+    game_lose -->|Reset=1| idle
 ```
 
 ### 狀態動作說明：
