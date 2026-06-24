@@ -9,10 +9,9 @@ entity Level_Manager is
         Mode       : in  STD_LOGIC_VECTOR(1 downto 0);
         Next_Level : in  STD_LOGIC; -- 來自 Controller 的破關脈衝
         
-        Progress   : out STD_LOGIC_VECTOR(3 downto 0); -- 給 LED 顯示進度
-        Win_Flag   : out STD_LOGIC;                    -- 告訴 Controller 破關了沒
-        
-        Score_BCD  : out STD_LOGIC_VECTOR(7 downto 0)  -- 總破關數 (BCD 碼輸出，可以直接接兩顆七段顯示器)
+        Score_BCD  : out STD_LOGIC_VECTOR(7 downto 0);  -- 總破關數 (BCD 碼輸出，可以直接接兩顆七段顯示器)
+        Win_Flag   : out STD_LOGIC;                   -- 告訴 Controller 破關了沒
+        Progress   : out STD_LOGIC_VECTOR(3 downto 0) -- 給 LED 顯示進度
     );
 end Level_Manager;
 
