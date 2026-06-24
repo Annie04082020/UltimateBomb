@@ -75,7 +75,7 @@
 [電路架構](./Structure.md)
 [SM Chart](./smchart.md)
 [SM Chart TXT](./smchart(gemini).txt)
-<!-- [狀態圖](./StateDiagram.md) -->
+[狀態圖](./StateDiagram.md)
 
 ## 遊戲元件與功能
 
