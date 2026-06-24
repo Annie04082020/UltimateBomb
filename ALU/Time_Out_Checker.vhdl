@@ -3,8 +3,8 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity Time_Out_Checker is
     Port (
-        tens     : in  STD_LOGIC_VECTOR(3 downto 0);
         ones     : in  STD_LOGIC_VECTOR(3 downto 0);
+        tens     : in  STD_LOGIC_VECTOR(3 downto 0);
         Time_Out : out STD_LOGIC
     );
 end Time_Out_Checker;
