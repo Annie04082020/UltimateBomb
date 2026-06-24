@@ -9,14 +9,14 @@
 ## 組員
 
 - 111310452 電機四甲 黃安華
-- 112310456 電機三 林岑芝
+- 112310456 電機三乙 林岑芝
 
 ## 遊戲規則
 
 [流程圖](./FlowChart.png)
 [電路架構](./Structure.md)
 [SM Chart](./smchart.md)
-[SM Chart TXT](./smchart.txt)
+[SM Chart TXT](./smchart(gemini).txt)
 <!-- [狀態圖](./StateDiagram.svg) -->
 
 結合拆彈遊戲與終極密碼玩法，催生了這次的複合式邏輯遊戲
