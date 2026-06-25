@@ -1,0 +1,4110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>48</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Count Down</string>
+        </entry>
+      </elementAttributes>
+      <pos x="880" y="20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>48</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>MAX</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1200" y="40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>48</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>MIN</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1380" y="40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>36</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Enter Password</string>
+        </entry>
+      </elementAttributes>
+      <pos x="600" y="820"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Clock</elementName>
+      <elementAttributes>
+        <entry>
+          <string>runRealTime</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>clk</string>
+        </entry>
+        <entry>
+          <string>Frequency</string>
+          <int>5000</int>
+        </entry>
+      </elementAttributes>
+      <pos x="40" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>48</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Entered</string>
+        </entry>
+      </elementAttributes>
+      <pos x="700" y="40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1260" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1300" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1180" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1220" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1100" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1140" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1020" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1060" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="940" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="980" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="860" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="900" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="820" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="740" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="660" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="700" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="620" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="500" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="540" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="420" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="460" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="380" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>48</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>24,24</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>splitterSpreading</string>
+          <int>2</int>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>24</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1300" y="820"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1260" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1300" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1180" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1220" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1100" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1140" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1020" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1060" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="940" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="980" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="860" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="900" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="820" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="740" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="660" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="700" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="620" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="500" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="540" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="420" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="460" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="380" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>splitterSpreading</string>
+          <int>2</int>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>24</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1300" y="780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Seven-Seg-Hex</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Color</string>
+          <awt-color>
+            <red>255</red>
+            <green>102</green>
+            <blue>51</blue>
+            <alpha>255</alpha>
+          </awt-color>
+        </entry>
+      </elementAttributes>
+      <pos x="700" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Seven-Seg-Hex</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Color</string>
+          <awt-color reference="../../../../visualElement[58]/elementAttributes/entry/awt-color"/>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Seven-Seg-Hex</elementName>
+      <elementAttributes>
+        <entry>
+          <string>segSize</string>
+          <int>3</int>
+        </entry>
+      </elementAttributes>
+      <pos x="940" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Seven-Seg-Hex</elementName>
+      <elementAttributes>
+        <entry>
+          <string>segSize</string>
+          <int>3</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1040" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Seven-Seg-Hex</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Color</string>
+          <awt-color>
+            <red>0</red>
+            <green>204</green>
+            <blue>255</blue>
+            <alpha>255</alpha>
+          </awt-color>
+        </entry>
+      </elementAttributes>
+      <pos x="1180" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Seven-Seg-Hex</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Color</string>
+          <awt-color reference="../../../../visualElement[62]/elementAttributes/entry/awt-color"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1260" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Seven-Seg-Hex</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Color</string>
+          <awt-color reference="../../../../visualElement[62]/elementAttributes/entry/awt-color"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1360" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Seven-Seg-Hex</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Color</string>
+          <awt-color reference="../../../../visualElement[62]/elementAttributes/entry/awt-color"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1440" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>splitterSpreading</string>
+          <int>2</int>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>1,1,1,1,1,1,1,1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="860" y="900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Multiplexer</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="400" y="200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>8</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>4,4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="700" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Diff</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-300" y="200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Seven-Seg-Hex</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Color</string>
+          <awt-color>
+            <red>0</red>
+            <green>153</green>
+            <blue>0</blue>
+            <alpha>255</alpha>
+          </awt-color>
+        </entry>
+      </elementAttributes>
+      <pos x="460" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>48</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Mode</string>
+        </entry>
+      </elementAttributes>
+      <pos x="420" y="40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>External</elementName>
+      <elementAttributes>
+        <entry>
+          <string>applicationType</string>
+          <appType>GHDL</appType>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>two_bit_counter</string>
+        </entry>
+        <entry>
+          <string>externalInputs</string>
+          <string>clk,rst,add,en,Mode:2</string>
+        </entry>
+        <entry>
+          <string>Code</string>
+          <string>LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.NUMERIC_STD.ALL;
+
+ENTITY two_bit_counter is
+    PORT (  clk     : in     STD_LOGIC;
+            rst     : in     STD_LOGIC;
+            add     : in     STD_LOGIC;
+            en      : in     STD_LOGIC;  -- Game_Run
+            Mode    : in     STD_LOGIC_VECTOR(1 downto 0);
+            ten_out : out    STD_LOGIC_VECTOR (3 downto 0);
+            one_out : out    STD_LOGIC_VECTOR (3 downto 0)
+         );
+END two_bit_counter;
+
+ARCHITECTURE Behavioral of two_bit_counter is
+    signal tens : unsigned(3 downto 0) := &quot;1001&quot;;
+    signal ones : unsigned(3 downto 0) := &quot;1001&quot;;
+    signal add_flag : std_logic := &apos;0&apos;;
+begin
+
+    -- 捕捉來自高速時脈的 add 脈衝 (Pulse Catcher)
+    process(clk, rst, add)
+    begin
+        if rst = &apos;1&apos; then
+            add_flag &lt;= &apos;0&apos;;
+        elsif add = &apos;1&apos; then
+            add_flag &lt;= &apos;1&apos;;
+        elsif rising_edge(clk) then
+            add_flag &lt;= &apos;0&apos;;
+        end if;
+    end process;
+
+    process(clk, rst)
+        variable bonus_tens : unsigned(3 downto 0);
+    begin
+        if rst = &apos;1&apos; then
+            tens &lt;= &quot;1001&quot;;
+            ones &lt;= &quot;1001&quot;;
+        elsif rising_edge(clk) then
+            if add_flag = &apos;1&apos; then                
+              if Mode = &quot;00&quot; then
+                  bonus_tens := &quot;0011&quot;; -- 入門: +30秒
+              elsif Mode = &quot;10&quot; then
+                  bonus_tens := &quot;0001&quot;; -- 挑戰: +10秒
+              else
+                  bonus_tens := &quot;0010&quot;; -- 進階與無盡: +20秒
+              end if;
+              
+              if (tens + bonus_tens) &gt;= 9 then                  
+                 tens &lt;= &quot;1001&quot;;
+                 ones &lt;= &quot;1001&quot;;
+              else
+                 tens &lt;= tens + bonus_tens;
+              end if;
+            elsif en = &apos;1&apos; then   -- 如果你目前全場只用一個 1Hz 時鐘，就直接這樣寫
+                if tens = 0 and ones = 0 then
+                    -- 已經是 00，保持不變
+                    tens &lt;= &quot;0000&quot;;
+                    ones &lt;= &quot;0000&quot;;
+                elsif ones = 0 then
+                    -- 個位數為 0，向十位數借位
+                    ones &lt;= &quot;1001&quot;;
+                    tens &lt;= tens - 1;
+                else
+                    -- 正常個位數減 1
+                    ones &lt;= ones - 1;
+                end if;
+            end if;
+        end if;
+    end process;
+    ten_out &lt;= std_logic_vector(tens);
+    one_out &lt;= std_logic_vector(ones);
+
+end Behavioral;</string>
+        </entry>
+        <entry>
+          <string>externalOutputs</string>
+          <string>ten_out:4,one_out:4</string>
+        </entry>
+        <entry>
+          <string>Width</string>
+          <int>6</int>
+        </entry>
+      </elementAttributes>
+      <pos x="840" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>rst</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-80" y="360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>k7</string>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>k6</string>
+        </entry>
+      </elementAttributes>
+      <pos x="620" y="900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>k5</string>
+        </entry>
+      </elementAttributes>
+      <pos x="660" y="900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>k4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="700" y="900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>k3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="740" y="900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>k2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>k1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="820" y="900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>k0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="860" y="900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>External</elementName>
+      <elementAttributes>
+        <entry>
+          <string>applicationType</string>
+          <appType>GHDL</appType>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>BIN_decoder</string>
+        </entry>
+        <entry>
+          <string>externalInputs</string>
+          <string>EN,BIN:8</string>
+        </entry>
+        <entry>
+          <string>Code</string>
+          <string>library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity BIN_decoder is
+    Port (
+        EN    : in  STD_LOGIC;
+        BIN   : in  STD_LOGIC_VECTOR(7 downto 0);
+        Value : out STD_LOGIC_VECTOR(7 downto 0);
+        Seg   : out STD_LOGIC_VECTOR(7 downto 0)  -- High 4-bits: Tens, Low 4-bits: Units
+    );
+end BIN_decoder;
+
+architecture Behavioral of BIN_decoder is
+begin
+    process(EN, BIN)
+        variable bin_val   : integer range 0 to 255;
+        variable tens_int  : integer range 0 to 31;
+        variable units_int : integer range 0 to 15;
+    begin
+        bin_val := to_integer(unsigned(BIN));
+        
+        if EN = &apos;0&apos; then
+            Value &lt;= (others =&gt; &apos;0&apos;);
+            Seg   &lt;= (others =&gt; &apos;0&apos;);
+        else
+            Value &lt;= BIN;
+            
+            tens_int  := bin_val / 10;
+            units_int := bin_val mod 10;
+            
+            Seg &lt;= std_logic_vector(to_unsigned(tens_int, 4)) &amp; std_logic_vector(to_unsigned(units_int, 4));
+        end if;
+    end process;
+
+end Behavioral;</string>
+        </entry>
+        <entry>
+          <string>externalOutputs</string>
+          <string>Value:8,Seg:8</string>
+        </entry>
+        <entry>
+          <string>Width</string>
+          <int>5</int>
+        </entry>
+      </elementAttributes>
+      <pos x="140" y="220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>External</elementName>
+      <elementAttributes>
+        <entry>
+          <string>applicationType</string>
+          <appType>GHDL</appType>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>BCD_2_decoder</string>
+        </entry>
+        <entry>
+          <string>externalInputs</string>
+          <string>EN,BCD:8</string>
+        </entry>
+        <entry>
+          <string>Code</string>
+          <string>library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity BCD_2_decoder is
+    Port (
+        EN    : in  STD_LOGIC;
+        BCD   : in  STD_LOGIC_VECTOR(7 downto 0);
+        Value : out STD_LOGIC_VECTOR(7 downto 0);
+        Seg   : out STD_LOGIC_VECTOR(7 downto 0); -- High 4-bits: Tens, Low 4-bits: Units
+        Err : out STD_LOGIC
+    );
+end BCD_2_decoder;
+
+architecture Behavioral of BCD_2_decoder is
+begin
+    process(EN, BCD)
+        variable tens_val  : integer range 0 to 15;
+        variable units_val : integer range 0 to 15;
+        variable bin_val   : integer range 0 to 255;
+    begin
+        tens_val  := to_integer(unsigned(BCD(7 downto 4)));
+        units_val := to_integer(unsigned(BCD(3 downto 0)));
+        
+        if tens_val &gt; 9 or units_val &gt; 9 then
+            Err &lt;= &apos;1&apos;;
+        else
+            Err &lt;= &apos;0&apos;;
+        end if;
+        
+        bin_val   := (tens_val * 10) + units_val;
+        
+        if EN = &apos;0&apos; then
+            Value &lt;= (others =&gt; &apos;0&apos;);
+            Seg   &lt;= (others =&gt; &apos;0&apos;);
+        else
+            Value &lt;= std_logic_vector(to_unsigned(bin_val, 8));
+            Seg   &lt;= BCD; -- Since BCD input is already two 4-bit numbers (tens &amp; units)!
+        end if;
+    end process;
+end Behavioral;</string>
+        </entry>
+        <entry>
+          <string>externalOutputs</string>
+          <string>Value:8,Seg:8,Err</string>
+        </entry>
+        <entry>
+          <string>Width</string>
+          <int>5</int>
+        </entry>
+      </elementAttributes>
+      <pos x="140" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Seven-Seg</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Color</string>
+          <awt-color>
+            <red>153</red>
+            <green>51</green>
+            <blue>255</blue>
+            <alpha>255</alpha>
+          </awt-color>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="640" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+      </elementAttributes>
+      <pos x="620" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+      </elementAttributes>
+      <pos x="600" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>48</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Difficulty</string>
+        </entry>
+      </elementAttributes>
+      <pos x="520" y="0"/>
+    </visualElement>
+    <visualElement>
+      <elementName>External</elementName>
+      <elementAttributes>
+        <entry>
+          <string>applicationType</string>
+          <appType>GHDL</appType>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Password_Comparator</string>
+        </entry>
+        <entry>
+          <string>externalInputs</string>
+          <string>EnterWord:8,Password:8</string>
+        </entry>
+        <entry>
+          <string>Width</string>
+          <int>10</int>
+        </entry>
+        <entry>
+          <string>Code</string>
+          <string>library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity Password_Comparator is
+    Port (
+        EnterWord : in  STD_LOGIC_VECTOR(7 downto 0);
+        Password  : in  STD_LOGIC_VECTOR(7 downto 0);
+        Pass_Gt   : out STD_LOGIC;  -- EnterWord &gt; Password
+        Pass_Match: out STD_LOGIC;  -- EnterWord = Password
+        Pass_Lt   : out STD_LOGIC   -- EnterWord &lt; Password
+    );
+end Password_Comparator;
+
+architecture Behavioral of Password_Comparator is
+begin
+    process(EnterWord, Password)
+        variable val_A : integer;
+        variable val_B : integer;
+    begin
+        val_A := to_integer(unsigned(EnterWord));
+        val_B := to_integer(unsigned(Password));
+        
+        -- 預設歸零
+        Pass_Gt &lt;= &apos;0&apos;;
+        Pass_Match &lt;= &apos;0&apos;;
+        Pass_Lt &lt;= &apos;0&apos;;
+        
+        if val_A &gt; val_B then
+            Pass_Gt &lt;= &apos;1&apos;;
+        elsif val_A &lt; val_B then
+            Pass_Lt &lt;= &apos;1&apos;;
+        else
+            Pass_Match &lt;= &apos;1&apos;;
+        end if;
+    end process;
+end Behavioral;</string>
+        </entry>
+        <entry>
+          <string>externalOutputs</string>
+          <string>Pass_Gt,Pass_Match,Pass_Lt</string>
+        </entry>
+      </elementAttributes>
+      <pos x="460" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>External</elementName>
+      <elementAttributes>
+        <entry>
+          <string>applicationType</string>
+          <appType>GHDL</appType>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Ultimate_Bomb_controller</string>
+        </entry>
+        <entry>
+          <string>externalInputs</string>
+          <string>clk,Reset,EN,Time_Out,Pass_Gt,Pass_Match,Pass_Lt,Win_Flag</string>
+        </entry>
+        <entry>
+          <string>Code</string>
+          <string>library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity Ultimate_Bomb_controller is
+    Port (
+        clk        : in  STD_LOGIC;  
+        Reset      : in  STD_LOGIC;
+        EN         : in  STD_LOGIC;  -- Enter 鍵
+        
+        -- 外部狀態輸入 (代替原本的 8-bit 數字，由外部的 Comparator 產生)
+        Time_Out   : in  STD_LOGIC;  -- 倒數計時為 0 的訊號
+        Pass_Gt    : in  STD_LOGIC;  -- 輸入 &gt; 密碼
+        Pass_Match : in  STD_LOGIC;  -- 輸入 == 密碼
+        Pass_Lt    : in  STD_LOGIC;  -- 輸入 &lt; 密碼
+        
+        -- 給 Level Manager 的介面
+        Win_Flag   : in  STD_LOGIC;  -- 來自 Level Manager：是否達成通關條件
+        
+        -- 對外部 Datapath 的控制輸出
+        Load_Max   : out STD_LOGIC;  -- 叫外部 Max 暫存器更新
+        Load_Min   : out STD_LOGIC;  -- 叫外部 Min 暫存器更新
+        New_Bomb   : out STD_LOGIC;  -- 叫亂數產生器產生新密碼 (兼具 Reset 上下限的功能)
+        add_time   : out STD_LOGIC;  -- 叫計時器加時間
+        WIN        : out STD_LOGIC;
+        LOSE       : out STD_LOGIC;
+        Game_Run   : out STD_LOGIC;  -- 告訴倒數計時器現在可以倒數了
+        State_Out  : out STD_LOGIC_VECTOR(2 downto 0); -- 輸出當前狀態給顯示器
+        
+        -- 給 Level Manager 的介面
+        Next_Level : out STD_LOGIC;  -- 給 Level Manager：破關了，進度加一
+        
+        -- ★ 新增：用來鎖死外部 Difficulty 與 Mode 暫存器的控制訊號
+        Load_Setup : out STD_LOGIC   
+    );
+end Ultimate_Bomb_controller;
+
+architecture Behavioral of Ultimate_Bomb_controller is
+    type state_type is (idle, next_bomb, game, check_pass, game_win, game_lose);
+    signal current_state : state_type := idle;
+    
+    signal EN_prev : STD_LOGIC := &apos;0&apos;;
+begin
+
+    -- 狀態顯示解碼器 (單純組合邏輯)
+    process(current_state)
+    begin
+        case current_state is
+            when idle       =&gt; State_Out &lt;= &quot;000&quot;;
+            when next_bomb  =&gt; State_Out &lt;= &quot;001&quot;;
+            when game       =&gt; State_Out &lt;= &quot;010&quot;;
+            when check_pass =&gt; State_Out &lt;= &quot;010&quot;;
+            when game_win   =&gt; State_Out &lt;= &quot;011&quot;;
+            when game_lose  =&gt; State_Out &lt;= &quot;100&quot;;
+            when others     =&gt; State_Out &lt;= &quot;000&quot;;
+        end case;
+    end process;
+
+    -- 核心狀態機 (同步循序邏輯)
+    process(clk, Reset)
+    begin
+        if Reset = &apos;1&apos; then
+            current_state &lt;= idle;
+            WIN &lt;= &apos;0&apos;;
+            LOSE &lt;= &apos;0&apos;;
+            Game_Run &lt;= &apos;0&apos;;
+            New_Bomb &lt;= &apos;0&apos;;
+            add_time &lt;= &apos;0&apos;;
+            Load_Max &lt;= &apos;0&apos;;
+            Load_Min &lt;= &apos;0&apos;;
+            Load_Setup &lt;= &apos;0&apos;; -- ★ 新增：重置時關閉設定大門
+            EN_prev &lt;= &apos;0&apos;;
+            
+        elsif rising_edge(clk) then
+            -- 預設所有脈衝控制訊號為 0 (避免產生 Latch)
+            New_Bomb &lt;= &apos;0&apos;;
+            add_time &lt;= &apos;0&apos;;
+            Next_Level &lt;= &apos;0&apos;;
+            Load_Max &lt;= &apos;0&apos;;
+            Load_Min &lt;= &apos;0&apos;;
+            Load_Setup &lt;= &apos;0&apos;; -- ★ 新增：預設關閉大門，保持暫存器鎖定狀態
+            
+            EN_prev &lt;= EN; 
+            
+            -- 時間到直接輸 (例外處理：如果在閒置或已經結束的狀態就不理會)
+            if current_state /= idle and current_state /= game_win and current_state /= game_lose then
+                if Time_Out = &apos;1&apos; then
+                    current_state &lt;= game_lose;
+                end if;
+            end if;
+
+            case current_state is
+                when idle =&gt;
+                    WIN &lt;= &apos;0&apos;;
+                    LOSE &lt;= &apos;0&apos;;
+                    Game_Run &lt;= &apos;0&apos;;
+                    
+                    if EN = &apos;1&apos; and EN_prev = &apos;0&apos; then
+                        Load_Setup &lt;= &apos;1&apos;; -- ★ 新增：只有在按下 Confirm 的這個 Clock 瞬間，發出鎖定設定的脈衝！
+                        current_state &lt;= next_bomb; 
+                    end if;
+                    
+                when next_bomb =&gt;
+                    New_Bomb &lt;= &apos;1&apos;; 
+                    Game_Run &lt;= &apos;0&apos;;
+                    
+                    if EN = &apos;1&apos; and EN_prev = &apos;0&apos; then
+                        current_state &lt;= game;
+                    end if;
+                    
+                when game =&gt;
+                    Game_Run &lt;= &apos;1&apos;;
+                    if EN = &apos;1&apos; and EN_prev = &apos;0&apos; then
+                        current_state &lt;= check_pass;
+                    end if;
+                    
+                when check_pass =&gt;
+                    Game_Run &lt;= &apos;1&apos;;
+                    if Pass_Gt = &apos;1&apos; then
+                        Load_Max &lt;= &apos;1&apos;; 
+                        current_state &lt;= game;
+                    elsif Pass_Lt = &apos;1&apos; then
+                        Load_Min &lt;= &apos;1&apos;; 
+                        current_state &lt;= game;
+                    elsif Pass_Match = &apos;1&apos; then
+                        add_time &lt;= &apos;1&apos;;
+                        Next_Level &lt;= &apos;1&apos;; 
+                        
+                        if Win_Flag = &apos;1&apos; then
+                            current_state &lt;= game_win;
+                        else
+                            current_state &lt;= next_bomb;
+                        end if;
+                    else
+                        current_state &lt;= game; 
+                    end if;
+                    
+                when game_win =&gt;
+                    WIN &lt;= &apos;1&apos;;
+                    Game_Run &lt;= &apos;0&apos;;
+                    
+                when game_lose =&gt;
+                    LOSE &lt;= &apos;1&apos;;
+                    Game_Run &lt;= &apos;0&apos;;
+                    
+            end case;
+        end if;
+    end process;
+end Behavioral;</string>
+        </entry>
+        <entry>
+          <string>externalOutputs</string>
+          <string>Load_Max,Load_Min,New_Bomb,add_time,WIN,LOSE,Game_Run,State_Out:3,Next_Level,Load_Setup</string>
+        </entry>
+        <entry>
+          <string>Width</string>
+          <int>10</int>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>External</elementName>
+      <elementAttributes>
+        <entry>
+          <string>applicationType</string>
+          <appType>GHDL</appType>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>random</string>
+        </entry>
+        <entry>
+          <string>externalInputs</string>
+          <string>clk,rst,btn_start</string>
+        </entry>
+        <entry>
+          <string>Code</string>
+          <string>library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity random is
+    Port ( 
+        clk        : in  STD_LOGIC;
+        rst        : in  STD_LOGIC;
+        btn_start  : in  STD_LOGIC;
+        rand_out   : out STD_LOGIC_VECTOR(7 downto 0));
+end random;
+
+architecture Behavioral of random is
+    signal fast_counter : unsigned(7 downto 0) := &quot;00000000&quot;;
+    signal latched_val  : unsigned(7 downto 0) := &quot;00000000&quot;;
+begin
+
+    process(clk, rst)
+    begin
+        if rst = &apos;1&apos; then
+            fast_counter &lt;= &quot;00000000&quot;;
+        elsif rising_edge(clk) then
+            if fast_counter = 99 then
+                fast_counter &lt;= &quot;00000000&quot;;
+            else
+                fast_counter &lt;= fast_counter + 1;
+            end if;
+        end if;
+    end process;
+
+    process(clk, rst)
+    begin
+        if rst = &apos;1&apos; then
+            latched_val &lt;= &quot;00000000&quot;;
+        elsif rising_edge(clk) then
+            if btn_start = &apos;1&apos; then
+                latched_val &lt;= fast_counter;
+            end if;
+        end if;
+    end process;
+    rand_out &lt;= std_logic_vector(latched_val);
+
+end Behavioral;</string>
+        </entry>
+        <entry>
+          <string>externalOutputs</string>
+          <string>rand_out:8</string>
+        </entry>
+        <entry>
+          <string>Width</string>
+          <int>5</int>
+        </entry>
+      </elementAttributes>
+      <pos x="200" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>WIN</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1440" y="500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>LOSE</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1440" y="540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Multiplexer</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="360" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="760" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="840" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1000" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1100" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1240" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1320" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1420" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1500" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>External</elementName>
+      <elementAttributes>
+        <entry>
+          <string>applicationType</string>
+          <appType>GHDL</appType>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Max_Register</string>
+        </entry>
+        <entry>
+          <string>externalInputs</string>
+          <string>clk,rst,en,D:8</string>
+        </entry>
+        <entry>
+          <string>Code</string>
+          <string>library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity Max_Register is
+    Port (
+        clk : in  STD_LOGIC;
+        rst : in  STD_LOGIC;  -- 接 New_Bomb 或 系統 Reset
+        en  : in  STD_LOGIC;  -- 接 Load_Max
+        D   : in  STD_LOGIC_VECTOR(7 downto 0); -- 接玩家輸入的數字
+        Q   : out STD_LOGIC_VECTOR(7 downto 0)  -- 輸出給顯示器
+    );
+end Max_Register;
+
+architecture Behavioral of Max_Register is
+    -- 預設為 BCD 碼的 99 (1001 1001)
+    signal reg_data : STD_LOGIC_VECTOR(7 downto 0) := &quot;10011001&quot;; 
+begin
+    process(clk, rst)
+    begin
+        -- 當 rst=1 (收到 New_Bomb 訊號) 時，強制恢復成 99
+        if rst = &apos;1&apos; then
+            reg_data &lt;= &quot;10011001&quot;; 
+        elsif rising_edge(clk) then
+            if en = &apos;1&apos; then
+                if unsigned(D) &lt; unsigned(reg_data) then
+                    reg_data &lt;= D; -- 只有輸入數字比當前範圍小時，才會更新
+                end if;
+            end if;
+        end if;
+    end process;
+    
+    Q &lt;= reg_data;
+end Behavioral;</string>
+        </entry>
+        <entry>
+          <string>externalOutputs</string>
+          <string>Q:8</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1220" y="360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>8</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>4,4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1260" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>8</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>4,4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1420" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="520" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>External</elementName>
+      <elementAttributes>
+        <entry>
+          <string>applicationType</string>
+          <appType>GHDL</appType>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Time_Out_Checker</string>
+        </entry>
+        <entry>
+          <string>externalInputs</string>
+          <string>ones:4,tens:4</string>
+        </entry>
+        <entry>
+          <string>Code</string>
+          <string>library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity Time_Out_Checker is
+    Port (
+        ones     : in  STD_LOGIC_VECTOR(3 downto 0);
+        tens     : in  STD_LOGIC_VECTOR(3 downto 0);
+        Time_Out : out STD_LOGIC
+    );
+end Time_Out_Checker;
+
+architecture Behavioral of Time_Out_Checker is
+begin
+    -- 當十位數和個位數都為 0 時，輸出 Time_Out = &apos;1&apos;
+    process(tens, ones)
+    begin
+        if tens = &quot;0000&quot; and ones = &quot;0000&quot; then
+            Time_Out &lt;= &apos;1&apos;;
+        else
+            Time_Out &lt;= &apos;0&apos;;
+        end if;
+    end process;
+end Behavioral;</string>
+        </entry>
+        <entry>
+          <string>externalOutputs</string>
+          <string>Time_Out</string>
+        </entry>
+        <entry>
+          <string>Width</string>
+          <int>5</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1040" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Clock</elementName>
+      <elementAttributes>
+        <entry>
+          <string>runRealTime</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>countdown</string>
+        </entry>
+      </elementAttributes>
+      <pos x="820" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>External</elementName>
+      <elementAttributes>
+        <entry>
+          <string>applicationType</string>
+          <appType>GHDL</appType>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Min_Register</string>
+        </entry>
+        <entry>
+          <string>externalInputs</string>
+          <string>clk,rst,en,D:8</string>
+        </entry>
+        <entry>
+          <string>Code</string>
+          <string>library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity Min_Register is
+    Port (
+        clk : in  STD_LOGIC;
+        rst : in  STD_LOGIC;  -- 接 New_Bomb 或 系統 Reset
+        en  : in  STD_LOGIC;  -- 接 Load_Min
+        D   : in  STD_LOGIC_VECTOR(7 downto 0); -- 接玩家輸入的數字
+        Q   : out STD_LOGIC_VECTOR(7 downto 0)  -- 輸出給顯示器
+    );
+end Min_Register;
+
+architecture Behavioral of Min_Register is
+    -- 預設為 BCD 碼的 00 (0000 0000)
+    signal reg_data : STD_LOGIC_VECTOR(7 downto 0) := &quot;00000000&quot;; 
+begin
+    process(clk, rst)
+    begin
+        -- 當 rst=1 (收到 New_Bomb 訊號) 時，強制恢復成 00
+        if rst = &apos;1&apos; then
+            reg_data &lt;= &quot;00000000&quot;; 
+        elsif rising_edge(clk) then
+            if en = &apos;1&apos; then
+                if unsigned(D) &gt; unsigned(reg_data) then
+                    reg_data &lt;= D; -- 只有輸入數字比當前範圍大時，才會更新
+                end if;
+            end if;
+        end if;
+    end process;
+    
+    Q &lt;= reg_data;
+end Behavioral;</string>
+        </entry>
+        <entry>
+          <string>externalOutputs</string>
+          <string>Q:8</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1380" y="360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>48</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Enter / Start</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1060" y="880"/>
+    </visualElement>
+    <visualElement>
+      <elementName>SixteenSeg</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Color</string>
+          <awt-color>
+            <red>0</red>
+            <green>0</green>
+            <blue>204</blue>
+            <alpha>255</alpha>
+          </awt-color>
+        </entry>
+      </elementAttributes>
+      <pos x="740" y="-120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>SixteenSeg</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Color</string>
+          <awt-color>
+            <red>0</red>
+            <green>0</green>
+            <blue>204</blue>
+            <alpha>255</alpha>
+          </awt-color>
+        </entry>
+      </elementAttributes>
+      <pos x="820" y="-120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>SixteenSeg</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Color</string>
+          <awt-color>
+            <red>0</red>
+            <green>0</green>
+            <blue>204</blue>
+            <alpha>255</alpha>
+          </awt-color>
+        </entry>
+      </elementAttributes>
+      <pos x="900" y="-120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>SixteenSeg</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Color</string>
+          <awt-color>
+            <red>0</red>
+            <green>0</green>
+            <blue>204</blue>
+            <alpha>255</alpha>
+          </awt-color>
+        </entry>
+      </elementAttributes>
+      <pos x="980" y="-120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>SixteenSeg</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Color</string>
+          <awt-color>
+            <red>0</red>
+            <green>0</green>
+            <blue>204</blue>
+            <alpha>255</alpha>
+          </awt-color>
+        </entry>
+      </elementAttributes>
+      <pos x="1060" y="-120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Button</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Confirm</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1020" y="900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>48</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Current State</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1140" y="-60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>External</elementName>
+      <elementAttributes>
+        <entry>
+          <string>applicationType</string>
+          <appType>GHDL</appType>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>State_Display_16seg</string>
+        </entry>
+        <entry>
+          <string>externalInputs</string>
+          <string>State_In:3,Invalid_Input</string>
+        </entry>
+        <entry>
+          <string>Code</string>
+          <string>library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity State_Display_16seg is
+    Port (
+        State_In      : in  STD_LOGIC_VECTOR(2 downto 0);
+        Invalid_Input : in  STD_LOGIC;
+        Disp_1        : out STD_LOGIC_VECTOR(15 downto 0);
+        Disp_2        : out STD_LOGIC_VECTOR(15 downto 0);
+        Disp_3        : out STD_LOGIC_VECTOR(15 downto 0);
+        Disp_4        : out STD_LOGIC_VECTOR(15 downto 0);
+        Disp_5        : out STD_LOGIC_VECTOR(15 downto 0)
+    );
+end State_Display_16seg;
+
+architecture Behavioral of State_Display_16seg is
+    -- 16-Segment Bit Mapping (Based on typical Digital simulator layout)
+    -- Bit 0: a1 (top left)
+    -- Bit 1: a2 (top right)
+    -- Bit 2: b  (top right vertical)
+    -- Bit 3: c  (bottom right vertical)
+    -- Bit 4: d2 (bottom right)
+    -- Bit 5: d1 (bottom left)
+    -- Bit 6: e  (bottom left vertical)
+    -- Bit 7: f  (top left vertical)
+    -- Bit 8: g1 (middle left horizontal)
+    -- Bit 9: g2 (middle right horizontal)
+    -- Bit 10: h (top left diagonal)
+    -- Bit 11: i (top middle vertical)
+    -- Bit 12: j (top right diagonal)
+    -- Bit 13: k (bottom right diagonal)
+    -- Bit 14: l (bottom middle vertical)
+    -- Bit 15: m (bottom left diagonal)
+    
+    constant BLANK : std_logic_vector(15 downto 0) := x&quot;0000&quot;;
+    constant CHAR_E: std_logic_vector(15 downto 0) := x&quot;03F3&quot;; -- a1,a2, d1,d2, e,f, g1,g2 -&gt; 0,1, 4,5, 6,7, 8,9
+    constant CHAR_R: std_logic_vector(15 downto 0) := x&quot;23C7&quot;; -- a1,a2, b, e,f, g1,g2, k -&gt; 0,1, 2, 6,7, 8,9, 13
+    constant CHAR_O: std_logic_vector(15 downto 0) := x&quot;00FF&quot;; -- a1,a2, b,c, d1,d2, e,f -&gt; 0,1, 2,3, 4,5, 6,7
+    constant CHAR_L: std_logic_vector(15 downto 0) := x&quot;00F0&quot;; -- d1,d2, e,f -&gt; 4,5, 6,7
+    constant CHAR_S: std_logic_vector(15 downto 0) := x&quot;03BB&quot;; -- a1,a2, c, d1,d2, f, g1,g2 -&gt; 0,1, 3, 4,5, 7, 8,9
+    constant CHAR_W: std_logic_vector(15 downto 0) := x&quot;A0FC&quot;; -- b,c, d1,d2, e,f, m,k -&gt; 2,3, 4,5, 6,7, 13,15
+    constant CHAR_I: std_logic_vector(15 downto 0) := x&quot;4800&quot;; -- i, l -&gt; 11, 14
+    constant CHAR_N: std_logic_vector(15 downto 0) := x&quot;24CC&quot;; -- b,c, e,f, h,k -&gt; 2,3, 6,7, 10,13
+    constant CHAR_P: std_logic_vector(15 downto 0) := x&quot;03C7&quot;; -- a1,a2, b, e,f, g1,g2 -&gt; 0,1, 2, 6,7, 8,9
+    constant CHAR_U: std_logic_vector(15 downto 0) := x&quot;00FC&quot;; -- b,c, d1,d2, e,f -&gt; 2,3, 4,5, 6,7
+    constant CHAR_T: std_logic_vector(15 downto 0) := x&quot;4803&quot;; -- a1,a2, i, l -&gt; 0,1, 11, 14
+    constant CHAR_D: std_logic_vector(15 downto 0) := x&quot;483F&quot;; -- a1,a2, b,c, d1,d2, i,l -&gt; 0,1, 2,3, 4,5, 11,14
+    constant CHAR_X: std_logic_vector(15 downto 0) := x&quot;B400&quot;; -- h, j, k, m -&gt; 10, 12, 13, 15
+
+begin
+    process(State_In, Invalid_Input)
+    begin
+        if Invalid_Input = &apos;1&apos; then
+            -- ERROR
+            Disp_1 &lt;= CHAR_E;
+            Disp_2 &lt;= CHAR_R;
+            Disp_3 &lt;= CHAR_R;
+            Disp_4 &lt;= CHAR_O;
+            Disp_5 &lt;= CHAR_R;
+        else
+            case State_In is
+                when &quot;000&quot; =&gt; -- idle (IDLE )
+                    Disp_1 &lt;= CHAR_I;
+                    Disp_2 &lt;= CHAR_D;
+                    Disp_3 &lt;= CHAR_L;
+                    Disp_4 &lt;= CHAR_E;
+                    Disp_5 &lt;= BLANK;
+                    
+                when &quot;001&quot; =&gt; -- next_bomb (NEXT )
+                    Disp_1 &lt;= CHAR_N;
+                    Disp_2 &lt;= CHAR_E;
+                    Disp_3 &lt;= CHAR_X;
+                    Disp_4 &lt;= CHAR_T;
+                    Disp_5 &lt;= BLANK;
+                    
+                when &quot;010&quot; =&gt; -- game / check_pass (INPUT)
+                    Disp_1 &lt;= CHAR_I;
+                    Disp_2 &lt;= CHAR_N;
+                    Disp_3 &lt;= CHAR_P;
+                    Disp_4 &lt;= CHAR_U;
+                    Disp_5 &lt;= CHAR_T;
+                    
+                when &quot;011&quot; =&gt; -- game_win ( WIN )
+                    Disp_1 &lt;= BLANK;
+                    Disp_2 &lt;= CHAR_W;
+                    Disp_3 &lt;= CHAR_I;
+                    Disp_4 &lt;= CHAR_N;
+                    Disp_5 &lt;= BLANK;
+                    
+                when &quot;100&quot; =&gt; -- game_lose (LOSE )
+                    Disp_1 &lt;= CHAR_L;
+                    Disp_2 &lt;= CHAR_O;
+                    Disp_3 &lt;= CHAR_S;
+                    Disp_4 &lt;= CHAR_E;
+                    Disp_5 &lt;= BLANK;
+                    
+                when others =&gt;
+                    Disp_1 &lt;= BLANK;
+                    Disp_2 &lt;= BLANK;
+                    Disp_3 &lt;= BLANK;
+                    Disp_4 &lt;= BLANK;
+                    Disp_5 &lt;= BLANK;
+            end case;
+        end if;
+    end process;
+end Behavioral;</string>
+        </entry>
+        <entry>
+          <string>externalOutputs</string>
+          <string>Disp_1:16,Disp_2:16,Disp_3:16,Disp_4:16,Disp_5:16</string>
+        </entry>
+        <entry>
+          <string>Width</string>
+          <int>9</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1140" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>16,16,16,16</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>64</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>splitterSpreading</string>
+          <int>4</int>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>64</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>16,16,16,16</string>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="800" y="40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="880" y="40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="960" y="40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1040" y="40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1140" y="20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>External</elementName>
+      <elementAttributes>
+        <entry>
+          <string>applicationType</string>
+          <appType>GHDL</appType>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Level_Manager</string>
+        </entry>
+        <entry>
+          <string>externalInputs</string>
+          <string>clk,rst,Mode:2,Next_Level</string>
+        </entry>
+        <entry>
+          <string>Code</string>
+          <string>library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity Level_Manager is
+    Port (
+        clk        : in  STD_LOGIC;
+        rst        : in  STD_LOGIC;
+        Mode       : in  STD_LOGIC_VECTOR(1 downto 0);
+        Next_Level : in  STD_LOGIC; -- 來自 Controller 的破關脈衝
+        
+        Score_BCD  : out STD_LOGIC_VECTOR(7 downto 0);  -- 總破關數 (BCD 碼輸出，可以直接接兩顆七段顯示器)
+        Win_Flag   : out STD_LOGIC;                   -- 告訴 Controller 破關了沒
+        Progress   : out STD_LOGIC_VECTOR(3 downto 0) -- 給 LED 顯示進度
+    );
+end Level_Manager;
+
+architecture Behavioral of Level_Manager is
+    signal Finish_stages : integer range 0 to 15 := 3;
+    signal Solved        : integer range 0 to 15 := 0;
+    
+    -- 用來計數總破關數的變數 (支援到 99 關)
+    signal score_tens  : integer range 0 to 9 := 0;
+    signal score_units : integer range 0 to 9 := 0;
+begin
+    
+    Progress &lt;= std_logic_vector(to_unsigned(Solved, 4));
+    Score_BCD(7 downto 4) &lt;= std_logic_vector(to_unsigned(score_tens, 4));
+    Score_BCD(3 downto 0) &lt;= std_logic_vector(to_unsigned(score_units, 4));
+
+    -- Combinational Logic for Finish_stages and Win_Flag
+    process(Mode, Solved, Finish_stages)
+    begin
+        -- 判斷目標關卡數
+        if Mode = &quot;00&quot; then
+            Finish_stages &lt;= 3;
+        elsif Mode = &quot;01&quot; then
+            Finish_stages &lt;= 6;
+        else -- &quot;10&quot; or &quot;11&quot;
+            Finish_stages &lt;= 12;
+        end if;
+        
+        -- 判斷是否達成通關條件 (如果再過一關就達到目標，且不是無盡模式)
+        if Mode = &quot;11&quot; then
+            Win_Flag &lt;= &apos;0&apos;; -- 無盡模式永遠不觸發 Win_Flag
+        elsif (Solved + 1) &gt;= Finish_stages then
+            Win_Flag &lt;= &apos;1&apos;;
+        else
+            Win_Flag &lt;= &apos;0&apos;;
+        end if;
+    end process;
+
+    -- Sequential Logic for counting Solved stages
+    process(clk, rst)
+    begin
+        if rst = &apos;1&apos; then
+            Solved &lt;= 0;
+            score_tens &lt;= 0;
+            score_units &lt;= 0;
+        elsif rising_edge(clk) then
+            if Next_Level = &apos;1&apos; then
+                
+                -- 更新總分 (Score)
+                if score_units = 9 then
+                    score_units &lt;= 0;
+                    if score_tens /= 9 then
+                        score_tens &lt;= score_tens + 1;
+                    end if;
+                else
+                    score_units &lt;= score_units + 1;
+                end if;
+                if Mode = &quot;11&quot; then
+                    -- 無盡模式：不更動關卡進度條 (LED 不動)
+                    Solved &lt;= 0;
+                elsif Solved &lt; Finish_stages then
+                    -- 普通模式：還沒滿就繼續加
+                    Solved &lt;= Solved + 1;
+                end if;
+            end if;
+        end if;
+    end process;
+
+end Behavioral;</string>
+        </entry>
+        <entry>
+          <string>externalOutputs</string>
+          <string>Score_BCD:8,Win_Flag,Progress:4</string>
+        </entry>
+        <entry>
+          <string>Width</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="480" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Seven-Seg-Hex</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Color</string>
+          <awt-color>
+            <red>0</red>
+            <green>153</green>
+            <blue>0</blue>
+            <alpha>255</alpha>
+          </awt-color>
+        </entry>
+      </elementAttributes>
+      <pos x="1460" y="680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>1,1</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="980" y="540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>2</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1,1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1400" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>1,1,1</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="660" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>3</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1,1,1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="760" y="540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>1,1</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1020" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>2</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1,1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1440" y="860"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>48</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Levels</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1380" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Seven-Seg-Hex</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Color</string>
+          <awt-color>
+            <red>0</red>
+            <green>153</green>
+            <blue>0</blue>
+            <alpha>255</alpha>
+          </awt-color>
+        </entry>
+      </elementAttributes>
+      <pos x="1380" y="680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1520" y="860"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>splitterSpreading</string>
+          <int>4</int>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>8</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>4,4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1500" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>External</elementName>
+      <elementAttributes>
+        <entry>
+          <string>applicationType</string>
+          <appType>GHDL</appType>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Mode_Selector</string>
+        </entry>
+        <entry>
+          <string>externalInputs</string>
+          <string>clk,rst,btn_mode</string>
+        </entry>
+        <entry>
+          <string>Code</string>
+          <string>library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity Mode_Selector is
+    Port (
+        clk      : in  STD_LOGIC;
+        rst      : in  STD_LOGIC;
+        btn_mode : in  STD_LOGIC;
+        Mode_Out : out STD_LOGIC_VECTOR(1 downto 0)
+    );
+end Mode_Selector;
+
+architecture Behavioral of Mode_Selector is
+    signal mode_reg : unsigned(1 downto 0) := &quot;00&quot;;
+    signal btn_prev : std_logic := &apos;0&apos;;
+begin
+
+    process(clk, rst)
+    begin
+        if rst = &apos;1&apos; then
+            mode_reg &lt;= &quot;00&quot;;
+            btn_prev &lt;= &apos;0&apos;;
+        elsif rising_edge(clk) then
+            -- 按鍵上升緣偵測 (避免按住時連續瘋狂跳動)
+            if btn_mode = &apos;1&apos; and btn_prev = &apos;0&apos; then
+                mode_reg &lt;= mode_reg + 1;
+            end if;
+            btn_prev &lt;= btn_mode;
+        end if;
+    end process;
+
+    Mode_Out &lt;= std_logic_vector(mode_reg);
+
+end Behavioral;</string>
+        </entry>
+        <entry>
+          <string>externalOutputs</string>
+          <string>Mode_Out:2</string>
+        </entry>
+        <entry>
+          <string>Width</string>
+          <int>6</int>
+        </entry>
+      </elementAttributes>
+      <pos x="180" y="620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Button</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Mode</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-300" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>External</elementName>
+      <elementAttributes>
+        <entry>
+          <string>applicationType</string>
+          <appType>GHDL</appType>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>ROM_LED_Arranger</string>
+        </entry>
+        <entry>
+          <string>externalInputs</string>
+          <string>EN,Mode:2,Progress:4</string>
+        </entry>
+        <entry>
+          <string>Code</string>
+          <string>library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity ROM_LED_Arranger is
+    Port (
+        EN       : in  STD_LOGIC;
+        Mode     : in  STD_LOGIC_VECTOR(1 downto 0);
+        Progress : in  STD_LOGIC_VECTOR(3 downto 0);
+        Data     : out STD_LOGIC_VECTOR(47 downto 0)  -- 48 LED, upper row then lower row
+    );
+end ROM_LED_Arranger;
+
+architecture Behavioral of ROM_LED_Arranger is
+
+    -------------------------------------------------------------------------
+    -- 24‑bit ROM type – one row (左到右編號：左端為高位元，右端為低位元)
+    -------------------------------------------------------------------------
+    type rom24_type is array (0 to 15) of std_logic_vector(23 downto 0);
+
+    -- Row‑wise helper constants
+    constant ALL_ON_24  : std_logic_vector(23 downto 0) := x&quot;FFFFFF&quot;;  -- 24 個 1
+    constant ALL_OFF_24 : std_logic_vector(23 downto 0) := x&quot;000000&quot;;  -- 24 個 0
+
+    -------------------------------------------------------------------------
+    -- Mode 0 : idle – both rows always off
+    -------------------------------------------------------------------------
+    constant MODE0_UP_ROM  : rom24_type := (others =&gt; ALL_OFF_24);
+    constant MODE0_LOW_ROM : rom24_type := (others =&gt; ALL_OFF_24);
+
+    -------------------------------------------------------------------------
+    -- Mode 1 : Fin = 3 – 右側每次清除 8 顆 LED (共 3 步)
+    -------------------------------------------------------------------------
+    constant MODE1_UP_ROM : rom24_type := (
+        0 =&gt; ALL_ON_24,   -- 111111111111111111111111
+        1 =&gt; x&quot;FFFF00&quot;,   -- 右側 8 顆熄滅
+        2 =&gt; x&quot;FF0000&quot;,   -- 右側 16 顆熄滅
+        3 =&gt; ALL_OFF_24,
+        others =&gt; ALL_OFF_24
+    );
+    constant MODE1_LOW_ROM : rom24_type := (
+        0 =&gt; ALL_ON_24,
+        1 =&gt; x&quot;FFFF00&quot;,
+        2 =&gt; x&quot;FF0000&quot;,
+        3 =&gt; ALL_OFF_24,
+        others =&gt; ALL_OFF_24
+    );
+
+    -------------------------------------------------------------------------
+    -- Mode 2 : Fin = 6 – 右側每次清除 4 顆 LED (共 6 步)
+    -------------------------------------------------------------------------
+    constant MODE2_UP_ROM : rom24_type := (
+        0 =&gt; ALL_ON_24,
+        1 =&gt; x&quot;FFFFF0&quot;,   -- clear 4 LSB
+        2 =&gt; x&quot;FFFF00&quot;,   -- clear 8 LSB
+        3 =&gt; x&quot;FFF000&quot;,   -- clear 12 LSB
+        4 =&gt; x&quot;FF0000&quot;,   -- clear 16 LSB
+        5 =&gt; x&quot;F00000&quot;,   -- clear 20 LSB
+        6 =&gt; x&quot;000000&quot;,   -- clear 24 LSB (全部熄滅)
+        others =&gt; ALL_OFF_24
+    );
+    constant MODE2_LOW_ROM : rom24_type := (
+        0 =&gt; ALL_ON_24,
+        1 =&gt; x&quot;FFFFF0&quot;,
+        2 =&gt; x&quot;FFFF00&quot;,
+        3 =&gt; x&quot;FFF000&quot;,
+        4 =&gt; x&quot;FF0000&quot;,
+        5 =&gt; x&quot;F00000&quot;,
+        6 =&gt; x&quot;000000&quot;,
+        others =&gt; ALL_OFF_24
+    );
+
+    -------------------------------------------------------------------------
+    -- Mode 3 : Fin = 12 – 右側每次清除 2 顆 LED (共 12 步)
+    -------------------------------------------------------------------------
+    constant MODE3_UP_ROM : rom24_type := (
+        0  =&gt; ALL_ON_24,   -- 111111111111111111111111
+        1  =&gt; x&quot;FFFFFC&quot;,   -- clear 2 LSB
+        2  =&gt; x&quot;FFFFF0&quot;,   -- clear 4 LSB
+        3  =&gt; x&quot;FFFFC0&quot;,   -- clear 6 LSB
+        4  =&gt; x&quot;FFFF00&quot;,   -- clear 8 LSB
+        5  =&gt; x&quot;FFFC00&quot;,   -- clear 10 LSB
+        6  =&gt; x&quot;FFF000&quot;,   -- clear 12 LSB
+        7  =&gt; x&quot;FFC000&quot;,   -- clear 14 LSB
+        8  =&gt; x&quot;FF0000&quot;,   -- clear 16 LSB
+        9  =&gt; x&quot;FC0000&quot;,   -- clear 18 LSB
+        10 =&gt; x&quot;F00000&quot;,   -- clear 20 LSB
+        11 =&gt; x&quot;C00000&quot;,   -- clear 22 LSB
+        others =&gt; ALL_OFF_24
+    );
+    constant MODE3_LOW_ROM : rom24_type := (
+        0  =&gt; ALL_ON_24,
+        1  =&gt; x&quot;FFFFFC&quot;,
+        2  =&gt; x&quot;FFFFF0&quot;,
+        3  =&gt; x&quot;FFFFC0&quot;,
+        4  =&gt; x&quot;FFFF00&quot;,
+        5  =&gt; x&quot;FFFC00&quot;,
+        6  =&gt; x&quot;FFF000&quot;,
+        7  =&gt; x&quot;FFC000&quot;,
+        8  =&gt; x&quot;FF0000&quot;,
+        9  =&gt; x&quot;FC0000&quot;,
+        10 =&gt; x&quot;F00000&quot;,
+        11 =&gt; x&quot;C00000&quot;,
+        others =&gt; ALL_OFF_24
+    );
+
+begin
+
+    process(EN, Mode, Progress)
+        variable idx : integer range 0 to 15;
+        variable up_row  : std_logic_vector(23 downto 0);
+        variable low_row : std_logic_vector(23 downto 0);
+    begin
+        idx := to_integer(unsigned(Progress));
+        if EN = &apos;0&apos; then
+            Data &lt;= (others =&gt; &apos;0&apos;);
+        else
+            case Mode is
+                when &quot;00&quot; =&gt;
+                    up_row  := MODE1_UP_ROM(idx);
+                    low_row := MODE1_LOW_ROM(idx);
+                when &quot;01&quot; =&gt;
+                    up_row  := MODE2_UP_ROM(idx);
+                    low_row := MODE2_LOW_ROM(idx);
+                when &quot;10&quot; =&gt;
+                    up_row  := MODE3_UP_ROM(idx);
+                    low_row := MODE3_LOW_ROM(idx);
+                when &quot;11&quot; =&gt;
+                    up_row  := ALL_ON_24;
+                    low_row := ALL_ON_24;
+                when others =&gt;
+                    up_row  := ALL_OFF_24;
+                    low_row := ALL_OFF_24;
+            end case;
+            Data &lt;= up_row &amp; low_row;  -- upper row (bits 47..24) + lower row (bits 23..0)
+        end if;
+    end process;
+
+end Behavioral;</string>
+        </entry>
+        <entry>
+          <string>externalOutputs</string>
+          <string>Data:48</string>
+        </entry>
+        <entry>
+          <string>Width</string>
+          <int>5</int>
+        </entry>
+      </elementAttributes>
+      <pos x="180" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Fill 0</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>2</int>
+        </entry>
+      </elementAttributes>
+      <pos x="480" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes/>
+      <pos x="540" y="80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+      </elementAttributes>
+      <pos x="680" y="80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="40" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Cheat</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>InDefault</string>
+          <value v="170" z="false"/>
+        </entry>
+      </elementAttributes>
+      <pos x="40" y="460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>2,2</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="500" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>External</elementName>
+      <elementAttributes>
+        <entry>
+          <string>applicationType</string>
+          <appType>GHDL</appType>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>BIN_decoder</string>
+        </entry>
+        <entry>
+          <string>externalInputs</string>
+          <string>EN,BIN:8</string>
+        </entry>
+        <entry>
+          <string>Code</string>
+          <string>library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity BIN_decoder is
+    Port (
+        EN    : in  STD_LOGIC;
+        BIN   : in  STD_LOGIC_VECTOR(7 downto 0);        
+        Seg   : out STD_LOGIC_VECTOR(7 downto 0);  -- High 4-bits: Tens, Low 4-bits: Units
+	Value : out STD_LOGIC_VECTOR(7 downto 0)    
+);
+end BIN_decoder;
+
+architecture Behavioral of BIN_decoder is
+begin
+    process(EN, BIN)
+        variable bin_val   : integer range 0 to 255;
+        variable tens_int  : integer range 0 to 31;
+        variable units_int : integer range 0 to 15;
+    begin
+        bin_val := to_integer(unsigned(BIN));
+        
+        if EN = &apos;0&apos; then
+            Value &lt;= (others =&gt; &apos;0&apos;);
+            Seg   &lt;= (others =&gt; &apos;0&apos;);
+        else
+            Value &lt;= BIN;
+            
+            tens_int  := bin_val / 10;
+            units_int := bin_val mod 10;
+            
+            Seg &lt;= std_logic_vector(to_unsigned(tens_int, 4)) &amp; std_logic_vector(to_unsigned(units_int, 4));
+        end if;
+    end process;
+
+end Behavioral;</string>
+        </entry>
+        <entry>
+          <string>externalOutputs</string>
+          <string>Seg:8,Value:8</string>
+        </entry>
+        <entry>
+          <string>Width</string>
+          <int>5</int>
+        </entry>
+      </elementAttributes>
+      <pos x="220" y="540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="200" y="540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Multiplexer</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="560" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Comparator</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="180" y="460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>modereg.dig</elementName>
+      <elementAttributes/>
+      <pos x="-180" y="180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>1,1</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-260" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>2</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1,1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-80" y="220"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="980" y="320"/>
+      <p2 x="1040" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="320"/>
+      <p2 x="840" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="320"/>
+      <p2 x="720" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="-200" y="320"/>
+      <p2 x="100" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="320"/>
+      <p2 x="760" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="1320" y="640"/>
+      <p2 x="1360" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="640"/>
+      <p2 x="180" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="640"/>
+      <p2 x="340" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="640"/>
+      <p2 x="1020" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="260"/>
+      <p2 x="820" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="1120" y="260"/>
+      <p2 x="1200" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="260"/>
+      <p2 x="1360" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="260"/>
+      <p2 x="1080" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="-200" y="260"/>
+      <p2 x="-180" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="-300" y="260"/>
+      <p2 x="-260" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="40" y="260"/>
+      <p2 x="280" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="260"/>
+      <p2 x="420" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="280" y="260"/>
+      <p2 x="360" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="580"/>
+      <p2 x="480" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="1120" y="580"/>
+      <p2 x="1140" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="580"/>
+      <p2 x="1020" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="580"/>
+      <p2 x="700" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="900"/>
+      <p2 x="1040" y="900"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="520"/>
+      <p2 x="560" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="520"/>
+      <p2 x="1400" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="520"/>
+      <p2 x="780" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="520"/>
+      <p2 x="1020" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="520"/>
+      <p2 x="380" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="200"/>
+      <p2 x="400" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="-220" y="200"/>
+      <p2 x="-180" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="-300" y="200"/>
+      <p2 x="-280" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="840"/>
+      <p2 x="1500" y="840"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="840"/>
+      <p2 x="180" y="840"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="460"/>
+      <p2 x="1280" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="460"/>
+      <p2 x="780" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="460"/>
+      <p2 x="660" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="460"/>
+      <p2 x="400" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="460"/>
+      <p2 x="460" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="40" y="460"/>
+      <p2 x="180" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="140"/>
+      <p2 x="360" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="140"/>
+      <p2 x="300" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="40" y="140"/>
+      <p2 x="80" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="80" y="140"/>
+      <p2 x="120" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="140"/>
+      <p2 x="140" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="780"/>
+      <p2 x="1300" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="780"/>
+      <p2 x="340" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="400"/>
+      <p2 x="1300" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="400"/>
+      <p2 x="200" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="400"/>
+      <p2 x="380" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="400"/>
+      <p2 x="460" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="400"/>
+      <p2 x="1460" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="-220" y="720"/>
+      <p2 x="1020" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="340"/>
+      <p2 x="840" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="340"/>
+      <p2 x="500" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="520" y="340"/>
+      <p2 x="740" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="340"/>
+      <p2 x="780" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="1120" y="20"/>
+      <p2 x="1140" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="660"/>
+      <p2 x="180" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="660"/>
+      <p2 x="1120" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="660"/>
+      <p2 x="420" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="280"/>
+      <p2 x="840" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="280"/>
+      <p2 x="700" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="280"/>
+      <p2 x="780" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="1220" y="280"/>
+      <p2 x="1240" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="1260" y="280"/>
+      <p2 x="1300" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="1420" y="280"/>
+      <p2 x="1480" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="280"/>
+      <p2 x="980" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="280"/>
+      <p2 x="1040" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="280"/>
+      <p2 x="400" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="600"/>
+      <p2 x="480" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="600"/>
+      <p2 x="1100" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="600"/>
+      <p2 x="660" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="600"/>
+      <p2 x="780" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="860"/>
+      <p2 x="1040" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="200" y="540"/>
+      <p2 x="220" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="540"/>
+      <p2 x="1040" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="1420" y="540"/>
+      <p2 x="1440" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="540"/>
+      <p2 x="760" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="540"/>
+      <p2 x="580" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="540"/>
+      <p2 x="400" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="220"/>
+      <p2 x="320" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="220"/>
+      <p2 x="140" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="60" y="220"/>
+      <p2 x="100" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="-60" y="220"/>
+      <p2 x="40" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="-120" y="220"/>
+      <p2 x="-80" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="80" y="800"/>
+      <p2 x="180" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="480"/>
+      <p2 x="300" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="60" y="480"/>
+      <p2 x="180" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="480"/>
+      <p2 x="1440" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="480"/>
+      <p2 x="780" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="480"/>
+      <p2 x="560" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="480"/>
+      <p2 x="440" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="160"/>
+      <p2 x="380" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="160"/>
+      <p2 x="300" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="60" y="160"/>
+      <p2 x="140" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="-200" y="160"/>
+      <p2 x="-20" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="420"/>
+      <p2 x="200" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="420"/>
+      <p2 x="1080" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="420"/>
+      <p2 x="700" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="420"/>
+      <p2 x="460" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="100"/>
+      <p2 x="360" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="360"/>
+      <p2 x="840" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="-80" y="360"/>
+      <p2 x="-20" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="360"/>
+      <p2 x="180" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="-20" y="360"/>
+      <p2 x="100" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="360"/>
+      <p2 x="520" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="360"/>
+      <p2 x="140" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="1100" y="40"/>
+      <p2 x="1340" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="680"/>
+      <p2 x="1060" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="300"/>
+      <p2 x="1020" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="1140" y="300"/>
+      <p2 x="1160" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="300"/>
+      <p2 x="840" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="300"/>
+      <p2 x="740" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="300"/>
+      <p2 x="700" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="40" y="300"/>
+      <p2 x="100" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="300"/>
+      <p2 x="320" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="300"/>
+      <p2 x="120" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="300"/>
+      <p2 x="160" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="300"/>
+      <p2 x="420" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="620"/>
+      <p2 x="180" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="620"/>
+      <p2 x="480" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="620"/>
+      <p2 x="1000" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="60" y="880"/>
+      <p2 x="860" y="880"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="560"/>
+      <p2 x="220" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="560"/>
+      <p2 x="1080" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="1100" y="560"/>
+      <p2 x="1140" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="560"/>
+      <p2 x="660" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="560"/>
+      <p2 x="480" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="560"/>
+      <p2 x="360" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="240"/>
+      <p2 x="400" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="240"/>
+      <p2 x="140" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="-240" y="240"/>
+      <p2 x="-180" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="-60" y="240"/>
+      <p2 x="-40" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="-280" y="240"/>
+      <p2 x="-260" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="280" y="820"/>
+      <p2 x="340" y="820"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="820"/>
+      <p2 x="180" y="820"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="820"/>
+      <p2 x="1300" y="820"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="180"/>
+      <p2 x="340" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="180"/>
+      <p2 x="420" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="-200" y="180"/>
+      <p2 x="-180" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="500"/>
+      <p2 x="780" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="1420" y="500"/>
+      <p2 x="1440" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="500"/>
+      <p2 x="680" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="500"/>
+      <p2 x="540" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="500"/>
+      <p2 x="1060" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="500"/>
+      <p2 x="1400" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="1060" y="500"/>
+      <p2 x="1240" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="760"/>
+      <p2 x="660" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="760"/>
+      <p2 x="1340" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="440"/>
+      <p2 x="1340" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="440"/>
+      <p2 x="1160" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="440"/>
+      <p2 x="440" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="120"/>
+      <p2 x="420" y="120"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="700"/>
+      <p2 x="1000" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="380"/>
+      <p2 x="200" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="380"/>
+      <p2 x="1220" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="380"/>
+      <p2 x="540" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="1220" y="380"/>
+      <p2 x="1380" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="60"/>
+      <p2 x="1120" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="280" y="60"/>
+      <p2 x="540" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="60"/>
+      <p2 x="620" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="60"/>
+      <p2 x="680" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="60"/>
+      <p2 x="600" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="240"/>
+      <p2 x="640" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="80"/>
+      <p2 x="640" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="360"/>
+      <p2 x="1280" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="1160" y="300"/>
+      <p2 x="1160" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="520" y="240"/>
+      <p2 x="520" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="520" y="340"/>
+      <p2 x="520" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="360"/>
+      <p2 x="140" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="760"/>
+      <p2 x="140" y="840"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="300"/>
+      <p2 x="780" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="260"/>
+      <p2 x="780" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="40"/>
+      <p2 x="780" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="1420" y="240"/>
+      <p2 x="1420" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="1420" y="500"/>
+      <p2 x="1420" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="860"/>
+      <p2 x="1040" y="900"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="20"/>
+      <p2 x="1040" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="520"/>
+      <p2 x="1040" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="460"/>
+      <p2 x="400" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="280"/>
+      <p2 x="400" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="520"/>
+      <p2 x="400" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="-20" y="160"/>
+      <p2 x="-20" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="600"/>
+      <p2 x="660" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="460"/>
+      <p2 x="660" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="240"/>
+      <p2 x="1300" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="360"/>
+      <p2 x="1300" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="-280" y="200"/>
+      <p2 x="-280" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="280" y="60"/>
+      <p2 x="280" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="460"/>
+      <p2 x="540" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="60"/>
+      <p2 x="540" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="500"/>
+      <p2 x="540" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="360"/>
+      <p2 x="540" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="420"/>
+      <p2 x="160" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="300"/>
+      <p2 x="160" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="780"/>
+      <p2 x="160" y="820"/>
+    </wire>
+    <wire>
+      <p1 x="1440" y="820"/>
+      <p2 x="1440" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="1440" y="360"/>
+      <p2 x="1440" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="20"/>
+      <p2 x="800" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="320"/>
+      <p2 x="800" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="340"/>
+      <p2 x="420" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="240"/>
+      <p2 x="420" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="120"/>
+      <p2 x="420" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="300"/>
+      <p2 x="420" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="600"/>
+      <p2 x="420" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="1060" y="500"/>
+      <p2 x="1060" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="240"/>
+      <p2 x="-40" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="400"/>
+      <p2 x="680" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="60"/>
+      <p2 x="680" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="500"/>
+      <p2 x="680" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="1320" y="240"/>
+      <p2 x="1320" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="40" y="220"/>
+      <p2 x="40" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="480"/>
+      <p2 x="300" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="160"/>
+      <p2 x="300" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="100"/>
+      <p2 x="300" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="260"/>
+      <p2 x="1200" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="240"/>
+      <p2 x="820" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="360"/>
+      <p2 x="1460" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="360"/>
+      <p2 x="180" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="520"/>
+      <p2 x="180" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="220"/>
+      <p2 x="440" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="480"/>
+      <p2 x="440" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="440"/>
+      <p2 x="440" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="280"/>
+      <p2 x="440" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="420"/>
+      <p2 x="1080" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="240"/>
+      <p2 x="1080" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="300"/>
+      <p2 x="700" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="420"/>
+      <p2 x="700" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="580"/>
+      <p2 x="700" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="440"/>
+      <p2 x="1340" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="40"/>
+      <p2 x="1340" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="760"/>
+      <p2 x="1340" y="840"/>
+    </wire>
+    <wire>
+      <p1 x="60" y="160"/>
+      <p2 x="60" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="60" y="220"/>
+      <p2 x="60" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="60" y="480"/>
+      <p2 x="60" y="880"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="300"/>
+      <p2 x="320" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="140"/>
+      <p2 x="320" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="20"/>
+      <p2 x="960" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="520"/>
+      <p2 x="580" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="240"/>
+      <p2 x="580" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="80"/>
+      <p2 x="580" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="1220" y="240"/>
+      <p2 x="1220" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="1220" y="360"/>
+      <p2 x="1220" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="-200" y="260"/>
+      <p2 x="-200" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="-200" y="160"/>
+      <p2 x="-200" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="840" y="240"/>
+      <p2 x="840" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="1480" y="240"/>
+      <p2 x="1480" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="1100" y="20"/>
+      <p2 x="1100" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="1100" y="240"/>
+      <p2 x="1100" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="1100" y="560"/>
+      <p2 x="1100" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="460"/>
+      <p2 x="460" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="620"/>
+      <p2 x="460" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="440"/>
+      <p2 x="720" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="320"/>
+      <p2 x="720" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="1360" y="260"/>
+      <p2 x="1360" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="80" y="140"/>
+      <p2 x="80" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="180"/>
+      <p2 x="340" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="800"/>
+      <p2 x="340" y="820"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="560"/>
+      <p2 x="340" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="640"/>
+      <p2 x="340" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="660"/>
+      <p2 x="340" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="240"/>
+      <p2 x="980" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="280"/>
+      <p2 x="980" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="240"/>
+      <p2 x="1240" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="360"/>
+      <p2 x="1240" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="240"/>
+      <p2 x="600" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="60"/>
+      <p2 x="600" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="-220" y="200"/>
+      <p2 x="-220" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="240"/>
+      <p2 x="1500" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="1120" y="580"/>
+      <p2 x="1120" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="1120" y="60"/>
+      <p2 x="1120" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="240"/>
+      <p2 x="740" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="500"/>
+      <p2 x="740" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="340"/>
+      <p2 x="740" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="1380" y="360"/>
+      <p2 x="1380" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="360"/>
+      <p2 x="100" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="220"/>
+      <p2 x="100" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="300"/>
+      <p2 x="100" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="780"/>
+      <p2 x="360" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="160"/>
+      <p2 x="360" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="380"/>
+      <p2 x="360" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="240"/>
+      <p2 x="1000" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="620"/>
+      <p2 x="1000" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="240"/>
+      <p2 x="620" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="60"/>
+      <p2 x="620" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="20"/>
+      <p2 x="880" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="820"/>
+      <p2 x="1520" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="260"/>
+      <p2 x="500" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="240"/>
+      <p2 x="760" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="320"/>
+      <p2 x="760" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="300"/>
+      <p2 x="120" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="140"/>
+      <p2 x="120" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="1400" y="360"/>
+      <p2 x="1400" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="1400" y="240"/>
+      <p2 x="1400" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="400"/>
+      <p2 x="380" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="180"/>
+      <p2 x="380" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="140"/>
+      <p2 x="380" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="420"/>
+      <p2 x="380" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="520"/>
+      <p2 x="1020" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="260"/>
+      <p2 x="1020" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="640"/>
+      <p2 x="1020" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="280"/>
+      <p2 x="1020" y="300"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
