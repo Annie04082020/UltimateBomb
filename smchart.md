@@ -3,7 +3,7 @@
 本專案將複雜的遊戲控制與防呆後門邏輯，嚴格依據時脈週期（Clock Cycle）收斂為以下工整的 SM Chart 架構：
 
 ```mermaid
-%%{ init: { 'flowchart': { 'curve': 'stepAfter', 'htmlLabels': true, 'subGraphTitleAlign': 'left' } } }%%
+%%{ init: { 'flowchart': { 'curve': 'basis', 'htmlLabels': true } } }%%
 flowchart TD
     %% 狀態樣式定義 (標準數位邏輯電路配色)
     classDef state fill:#E1F5FE,stroke:#03A9F4,stroke-width:2px,color:#000;
