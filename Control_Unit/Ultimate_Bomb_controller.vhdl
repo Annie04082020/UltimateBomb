@@ -24,11 +24,14 @@ entity Ultimate_Bomb_controller is
         add_time   : out STD_LOGIC;  -- 叫計時器加時間
         WIN        : out STD_LOGIC;
         LOSE       : out STD_LOGIC;
-        Game_Run   : out STD_LOGIC;  -- 新增：告訴倒數計時器現在可以倒數了
-        State_Out  : out STD_LOGIC_VECTOR(2 downto 0); -- 新增：輸出當前狀態給顯示器
+        Game_Run   : out STD_LOGIC;  -- 告訴倒數計時器現在可以倒數了
+        State_Out  : out STD_LOGIC_VECTOR(2 downto 0); -- 輸出當前狀態給顯示器
         
         -- 給 Level Manager 的介面
-        Next_Level : out STD_LOGIC  -- 給 Level Manager：破關了，進度加一
+        Next_Level : out STD_LOGIC;  -- 給 Level Manager：破關了，進度加一
+        
+        -- ★ 新增：用來鎖死外部 Difficulty 與 Mode 暫存器的控制訊號
+        Load_Setup : out STD_LOGIC   
     );
 end Ultimate_Bomb_controller;
 
@@ -39,6 +42,7 @@ architecture Behavioral of Ultimate_Bomb_controller is
     signal EN_prev : STD_LOGIC := '0';
 begin
 
+    -- 狀態顯示解碼器 (單純組合邏輯)
     process(current_state)
     begin
         case current_state is
@@ -52,6 +56,7 @@ begin
         end case;
     end process;
 
+    -- 核心狀態機 (同步循序邏輯)
     process(clk, Reset)
     begin
         if Reset = '1' then
@@ -63,6 +68,7 @@ begin
             add_time <= '0';
             Load_Max <= '0';
             Load_Min <= '0';
+            Load_Setup <= '0'; -- ★ 新增：重置時關閉設定大門
             EN_prev <= '0';
             
         elsif rising_edge(clk) then
@@ -72,10 +78,11 @@ begin
             Next_Level <= '0';
             Load_Max <= '0';
             Load_Min <= '0';
+            Load_Setup <= '0'; -- ★ 新增：預設關閉大門，保持暫存器鎖定狀態
             
             EN_prev <= EN; 
             
-            -- 時間到直接輸
+            -- 時間到直接輸 (例外處理：如果在閒置或已經結束的狀態就不理會)
             if current_state /= idle and current_state /= game_win and current_state /= game_lose then
                 if Time_Out = '1' then
                     current_state <= game_lose;
@@ -87,14 +94,14 @@ begin
                     WIN <= '0';
                     LOSE <= '0';
                     Game_Run <= '0';
-                    
+                    Load_Setup <= '1';
                     
                     if EN = '1' and EN_prev = '0' then
                         current_state <= next_bomb; 
                     end if;
                     
                 when next_bomb =>
-                    New_Bomb <= '1'; -- 此脈衝可以用來把外部的 Max 和 Min 暫存器重置為 99 和 0
+                    New_Bomb <= '1'; 
                     Game_Run <= '0';
                     
                     if EN = '1' and EN_prev = '0' then
@@ -110,14 +117,14 @@ begin
                 when check_pass =>
                     Game_Run <= '1';
                     if Pass_Gt = '1' then
-                        Load_Max <= '1'; -- 叫外部暫存器鎖定新上限
+                        Load_Max <= '1'; 
                         current_state <= game;
                     elsif Pass_Lt = '1' then
-                        Load_Min <= '1'; -- 叫外部暫存器鎖定新下限
+                        Load_Min <= '1'; 
                         current_state <= game;
                     elsif Pass_Match = '1' then
                         add_time <= '1';
-                        Next_Level <= '1'; -- 觸發 Level Manager 進度加一
+                        Next_Level <= '1'; 
                         
                         if Win_Flag = '1' then
                             current_state <= game_win;
@@ -125,7 +132,7 @@ begin
                             current_state <= next_bomb;
                         end if;
                     else
-                        current_state <= game; -- 防呆
+                        current_state <= game; 
                     end if;
                     
                 when game_win =>

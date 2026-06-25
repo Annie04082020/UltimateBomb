@@ -57,7 +57,7 @@
           <string>Enter Password</string>
         </entry>
       </elementAttributes>
-      <pos x="600" y="760"/>
+      <pos x="600" y="820"/>
     </visualElement>
     <visualElement>
       <elementName>Clock</elementName>
@@ -75,7 +75,7 @@
           <int>5000</int>
         </entry>
       </elementAttributes>
-      <pos x="40" y="300"/>
+      <pos x="40" y="280"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -99,7 +99,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="1260" y="780"/>
+      <pos x="1260" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -109,7 +109,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="1300" y="780"/>
+      <pos x="1300" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -119,7 +119,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="1180" y="780"/>
+      <pos x="1180" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -129,7 +129,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="1220" y="780"/>
+      <pos x="1220" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -139,7 +139,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="1100" y="780"/>
+      <pos x="1100" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -149,7 +149,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="1140" y="780"/>
+      <pos x="1140" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -159,7 +159,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="1020" y="780"/>
+      <pos x="1020" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -169,7 +169,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="1060" y="780"/>
+      <pos x="1060" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -179,7 +179,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="940" y="780"/>
+      <pos x="940" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -189,7 +189,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="980" y="780"/>
+      <pos x="980" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -199,7 +199,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="860" y="780"/>
+      <pos x="860" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -209,7 +209,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="900" y="780"/>
+      <pos x="900" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -219,7 +219,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="820" y="780"/>
+      <pos x="820" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -229,7 +229,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="740" y="780"/>
+      <pos x="740" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -239,7 +239,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="780" y="780"/>
+      <pos x="780" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -249,7 +249,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="660" y="780"/>
+      <pos x="660" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -259,7 +259,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="700" y="780"/>
+      <pos x="700" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -269,7 +269,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="620" y="780"/>
+      <pos x="620" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -279,7 +279,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="580" y="780"/>
+      <pos x="580" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -289,7 +289,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="500" y="780"/>
+      <pos x="500" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -299,7 +299,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="540" y="780"/>
+      <pos x="540" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -309,7 +309,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="420" y="780"/>
+      <pos x="420" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -319,7 +319,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="460" y="780"/>
+      <pos x="460" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -329,7 +329,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="380" y="780"/>
+      <pos x="380" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -343,7 +343,7 @@
           <string>24,24</string>
         </entry>
       </elementAttributes>
-      <pos x="340" y="740"/>
+      <pos x="340" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -365,7 +365,7 @@
           <string>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</string>
         </entry>
       </elementAttributes>
-      <pos x="1300" y="760"/>
+      <pos x="1300" y="820"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -375,7 +375,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="1260" y="740"/>
+      <pos x="1260" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -385,7 +385,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="1300" y="740"/>
+      <pos x="1300" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -395,7 +395,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="1180" y="740"/>
+      <pos x="1180" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -405,7 +405,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="1220" y="740"/>
+      <pos x="1220" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -415,7 +415,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="1100" y="740"/>
+      <pos x="1100" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -425,7 +425,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="1140" y="740"/>
+      <pos x="1140" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -435,7 +435,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="1020" y="740"/>
+      <pos x="1020" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -445,7 +445,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="1060" y="740"/>
+      <pos x="1060" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -455,7 +455,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="940" y="740"/>
+      <pos x="940" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -465,7 +465,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="980" y="740"/>
+      <pos x="980" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -475,7 +475,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="860" y="740"/>
+      <pos x="860" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -485,7 +485,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="900" y="740"/>
+      <pos x="900" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -495,7 +495,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="820" y="740"/>
+      <pos x="820" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -505,7 +505,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="740" y="740"/>
+      <pos x="740" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -515,7 +515,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="780" y="740"/>
+      <pos x="780" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -525,7 +525,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="660" y="740"/>
+      <pos x="660" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -535,7 +535,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="700" y="740"/>
+      <pos x="700" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -545,7 +545,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="620" y="740"/>
+      <pos x="620" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -555,7 +555,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="580" y="740"/>
+      <pos x="580" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -565,7 +565,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="500" y="740"/>
+      <pos x="500" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -575,7 +575,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="540" y="740"/>
+      <pos x="540" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -585,7 +585,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="420" y="740"/>
+      <pos x="420" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -595,7 +595,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="460" y="740"/>
+      <pos x="460" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -605,7 +605,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="380" y="740"/>
+      <pos x="380" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -627,7 +627,7 @@
           <string>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</string>
         </entry>
       </elementAttributes>
-      <pos x="1300" y="720"/>
+      <pos x="1300" y="780"/>
     </visualElement>
     <visualElement>
       <elementName>Seven-Seg-Hex</elementName>
@@ -739,7 +739,7 @@
           <string>1,1,1,1,1,1,1,1</string>
         </entry>
       </elementAttributes>
-      <pos x="860" y="840"/>
+      <pos x="860" y="900"/>
     </visualElement>
     <visualElement>
       <elementName>Multiplexer</elementName>
@@ -754,6 +754,10 @@
     <visualElement>
       <elementName>Splitter</elementName>
       <elementAttributes>
+        <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
         <entry>
           <string>Input Splitting</string>
           <string>8</string>
@@ -773,7 +777,7 @@
           <string>Diff</string>
         </entry>
       </elementAttributes>
-      <pos x="40" y="260"/>
+      <pos x="40" y="640"/>
     </visualElement>
     <visualElement>
       <elementName>Seven-Seg-Hex</elementName>
@@ -930,7 +934,7 @@ end Behavioral;</string>
           <string>k7</string>
         </entry>
       </elementAttributes>
-      <pos x="580" y="840"/>
+      <pos x="580" y="900"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -944,7 +948,7 @@ end Behavioral;</string>
           <string>k6</string>
         </entry>
       </elementAttributes>
-      <pos x="620" y="840"/>
+      <pos x="620" y="900"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -958,7 +962,7 @@ end Behavioral;</string>
           <string>k5</string>
         </entry>
       </elementAttributes>
-      <pos x="660" y="840"/>
+      <pos x="660" y="900"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -972,7 +976,7 @@ end Behavioral;</string>
           <string>k4</string>
         </entry>
       </elementAttributes>
-      <pos x="700" y="840"/>
+      <pos x="700" y="900"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -986,7 +990,7 @@ end Behavioral;</string>
           <string>k3</string>
         </entry>
       </elementAttributes>
-      <pos x="740" y="840"/>
+      <pos x="740" y="900"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -1000,7 +1004,7 @@ end Behavioral;</string>
           <string>k2</string>
         </entry>
       </elementAttributes>
-      <pos x="780" y="840"/>
+      <pos x="780" y="900"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -1014,7 +1018,7 @@ end Behavioral;</string>
           <string>k1</string>
         </entry>
       </elementAttributes>
-      <pos x="820" y="840"/>
+      <pos x="820" y="900"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -1028,7 +1032,7 @@ end Behavioral;</string>
           <string>k0</string>
         </entry>
       </elementAttributes>
-      <pos x="860" y="840"/>
+      <pos x="860" y="900"/>
     </visualElement>
     <visualElement>
       <elementName>External</elementName>
@@ -1056,7 +1060,8 @@ entity BIN_decoder is
         EN    : in  STD_LOGIC;
         BIN   : in  STD_LOGIC_VECTOR(7 downto 0);
         Value : out STD_LOGIC_VECTOR(7 downto 0);
-        Seg   : out STD_LOGIC_VECTOR(7 downto 0)  -- High 4-bits: Tens, Low 4-bits: Units
+        Seg   : out STD_LOGIC_VECTOR(7 downto 0);  -- High 4-bits: Tens, Low 4-bits: Units
+        Err   : out STD_LOGIC
     );
 end BIN_decoder;
 
@@ -1068,6 +1073,12 @@ begin
         variable units_int : integer range 0 to 15;
     begin
         bin_val := to_integer(unsigned(BIN));
+        
+        if bin_val &gt; 99 then
+            Err &lt;= &apos;1&apos;;
+        else
+            Err &lt;= &apos;0&apos;;
+        end if;
         
         if EN = &apos;0&apos; then
             Value &lt;= (others =&gt; &apos;0&apos;);
@@ -1086,7 +1097,7 @@ end Behavioral;</string>
         </entry>
         <entry>
           <string>externalOutputs</string>
-          <string>Value:8,Seg:8</string>
+          <string>Value:8,Seg:8,Err</string>
         </entry>
         <entry>
           <string>Width</string>
@@ -1293,7 +1304,7 @@ end Behavioral;</string>
           <string>Pass_Gt,Pass_Match,Pass_Lt</string>
         </entry>
       </elementAttributes>
-      <pos x="460" y="400"/>
+      <pos x="480" y="400"/>
     </visualElement>
     <visualElement>
       <elementName>External</elementName>
@@ -1338,11 +1349,14 @@ entity Ultimate_Bomb_controller is
         add_time   : out STD_LOGIC;  -- 叫計時器加時間
         WIN        : out STD_LOGIC;
         LOSE       : out STD_LOGIC;
-        Game_Run   : out STD_LOGIC;  -- 新增：告訴倒數計時器現在可以倒數了
-        State_Out  : out STD_LOGIC_VECTOR(2 downto 0); -- 新增：輸出當前狀態給顯示器
+        Game_Run   : out STD_LOGIC;  -- 告訴倒數計時器現在可以倒數了
+        State_Out  : out STD_LOGIC_VECTOR(2 downto 0); -- 輸出當前狀態給顯示器
         
         -- 給 Level Manager 的介面
-        Next_Level : out STD_LOGIC  -- 給 Level Manager：破關了，進度加一
+        Next_Level : out STD_LOGIC;  -- 給 Level Manager：破關了，進度加一
+        
+        -- ★ 新增：用來鎖死外部 Difficulty 與 Mode 暫存器的控制訊號
+        Load_Setup : out STD_LOGIC   
     );
 end Ultimate_Bomb_controller;
 
@@ -1353,6 +1367,7 @@ architecture Behavioral of Ultimate_Bomb_controller is
     signal EN_prev : STD_LOGIC := &apos;0&apos;;
 begin
 
+    -- 狀態顯示解碼器 (單純組合邏輯)
     process(current_state)
     begin
         case current_state is
@@ -1366,6 +1381,7 @@ begin
         end case;
     end process;
 
+    -- 核心狀態機 (同步循序邏輯)
     process(clk, Reset)
     begin
         if Reset = &apos;1&apos; then
@@ -1377,6 +1393,7 @@ begin
             add_time &lt;= &apos;0&apos;;
             Load_Max &lt;= &apos;0&apos;;
             Load_Min &lt;= &apos;0&apos;;
+            Load_Setup &lt;= &apos;0&apos;; -- ★ 新增：重置時關閉設定大門
             EN_prev &lt;= &apos;0&apos;;
             
         elsif rising_edge(clk) then
@@ -1386,10 +1403,11 @@ begin
             Next_Level &lt;= &apos;0&apos;;
             Load_Max &lt;= &apos;0&apos;;
             Load_Min &lt;= &apos;0&apos;;
+            Load_Setup &lt;= &apos;0&apos;; -- ★ 新增：預設關閉大門，保持暫存器鎖定狀態
             
             EN_prev &lt;= EN; 
             
-            -- 時間到直接輸
+            -- 時間到直接輸 (例外處理：如果在閒置或已經結束的狀態就不理會)
             if current_state /= idle and current_state /= game_win and current_state /= game_lose then
                 if Time_Out = &apos;1&apos; then
                     current_state &lt;= game_lose;
@@ -1401,14 +1419,14 @@ begin
                     WIN &lt;= &apos;0&apos;;
                     LOSE &lt;= &apos;0&apos;;
                     Game_Run &lt;= &apos;0&apos;;
-                    
+                    Load_Setup &lt;= &apos;1&apos;;
                     
                     if EN = &apos;1&apos; and EN_prev = &apos;0&apos; then
                         current_state &lt;= next_bomb; 
                     end if;
                     
                 when next_bomb =&gt;
-                    New_Bomb &lt;= &apos;1&apos;; -- 此脈衝可以用來把外部的 Max 和 Min 暫存器重置為 99 和 0
+                    New_Bomb &lt;= &apos;1&apos;; 
                     Game_Run &lt;= &apos;0&apos;;
                     
                     if EN = &apos;1&apos; and EN_prev = &apos;0&apos; then
@@ -1424,14 +1442,14 @@ begin
                 when check_pass =&gt;
                     Game_Run &lt;= &apos;1&apos;;
                     if Pass_Gt = &apos;1&apos; then
-                        Load_Max &lt;= &apos;1&apos;; -- 叫外部暫存器鎖定新上限
+                        Load_Max &lt;= &apos;1&apos;; 
                         current_state &lt;= game;
                     elsif Pass_Lt = &apos;1&apos; then
-                        Load_Min &lt;= &apos;1&apos;; -- 叫外部暫存器鎖定新下限
+                        Load_Min &lt;= &apos;1&apos;; 
                         current_state &lt;= game;
                     elsif Pass_Match = &apos;1&apos; then
                         add_time &lt;= &apos;1&apos;;
-                        Next_Level &lt;= &apos;1&apos;; -- 觸發 Level Manager 進度加一
+                        Next_Level &lt;= &apos;1&apos;; 
                         
                         if Win_Flag = &apos;1&apos; then
                             current_state &lt;= game_win;
@@ -1439,7 +1457,7 @@ begin
                             current_state &lt;= next_bomb;
                         end if;
                     else
-                        current_state &lt;= game; -- 防呆
+                        current_state &lt;= game; 
                     end if;
                     
                 when game_win =&gt;
@@ -1457,14 +1475,14 @@ end Behavioral;</string>
         </entry>
         <entry>
           <string>externalOutputs</string>
-          <string>Load_Max,Load_Min,New_Bomb,add_time,WIN,LOSE,Game_Run,State_Out:3,Next_Level</string>
+          <string>Load_Max,Load_Min,New_Bomb,add_time,WIN,LOSE,Game_Run,State_Out:3,Next_Level,Load_Setup</string>
         </entry>
         <entry>
           <string>Width</string>
           <int>10</int>
         </entry>
       </elementAttributes>
-      <pos x="780" y="460"/>
+      <pos x="820" y="460"/>
     </visualElement>
     <visualElement>
       <elementName>External</elementName>
@@ -1861,7 +1879,7 @@ end Behavioral;</string>
           <string>Enter / Start</string>
         </entry>
       </elementAttributes>
-      <pos x="1060" y="820"/>
+      <pos x="1060" y="880"/>
     </visualElement>
     <visualElement>
       <elementName>SixteenSeg</elementName>
@@ -1946,7 +1964,7 @@ end Behavioral;</string>
           <string>Confirm</string>
         </entry>
       </elementAttributes>
-      <pos x="1020" y="840"/>
+      <pos x="1020" y="900"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -2095,7 +2113,7 @@ end Behavioral;</string>
           <int>9</int>
         </entry>
       </elementAttributes>
-      <pos x="1140" y="560"/>
+      <pos x="1140" y="580"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -2109,7 +2127,7 @@ end Behavioral;</string>
           <string>64</string>
         </entry>
       </elementAttributes>
-      <pos x="1320" y="560"/>
+      <pos x="1320" y="580"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -2273,7 +2291,7 @@ end Behavioral;</string>
           <int>8</int>
         </entry>
       </elementAttributes>
-      <pos x="480" y="560"/>
+      <pos x="500" y="580"/>
     </visualElement>
     <visualElement>
       <elementName>Seven-Seg-Hex</elementName>
@@ -2288,7 +2306,7 @@ end Behavioral;</string>
           </awt-color>
         </entry>
       </elementAttributes>
-      <pos x="1460" y="620"/>
+      <pos x="1440" y="680"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -2302,7 +2320,7 @@ end Behavioral;</string>
           <string>2</string>
         </entry>
       </elementAttributes>
-      <pos x="980" y="540"/>
+      <pos x="1020" y="540"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -2330,7 +2348,7 @@ end Behavioral;</string>
           <string>3</string>
         </entry>
       </elementAttributes>
-      <pos x="660" y="400"/>
+      <pos x="680" y="400"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -2344,7 +2362,7 @@ end Behavioral;</string>
           <string>1,1,1</string>
         </entry>
       </elementAttributes>
-      <pos x="760" y="540"/>
+      <pos x="800" y="540"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -2358,7 +2376,7 @@ end Behavioral;</string>
           <string>2</string>
         </entry>
       </elementAttributes>
-      <pos x="1020" y="560"/>
+      <pos x="1060" y="560"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -2377,7 +2395,7 @@ end Behavioral;</string>
     <visualElement>
       <elementName>Ground</elementName>
       <elementAttributes/>
-      <pos x="1440" y="800"/>
+      <pos x="1420" y="860"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -2406,12 +2424,12 @@ end Behavioral;</string>
           </awt-color>
         </entry>
       </elementAttributes>
-      <pos x="1380" y="620"/>
+      <pos x="1360" y="680"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
       <elementAttributes/>
-      <pos x="1520" y="800"/>
+      <pos x="1500" y="860"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -2437,71 +2455,7 @@ end Behavioral;</string>
           <string>4,4</string>
         </entry>
       </elementAttributes>
-      <pos x="1500" y="780"/>
-    </visualElement>
-    <visualElement>
-      <elementName>External</elementName>
-      <elementAttributes>
-        <entry>
-          <string>applicationType</string>
-          <appType>GHDL</appType>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>Mode_Selector</string>
-        </entry>
-        <entry>
-          <string>externalInputs</string>
-          <string>clk,rst,btn_mode</string>
-        </entry>
-        <entry>
-          <string>Code</string>
-          <string>library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.NUMERIC_STD.ALL;
-
-entity Mode_Selector is
-    Port (
-        clk      : in  STD_LOGIC;
-        rst      : in  STD_LOGIC;
-        btn_mode : in  STD_LOGIC;
-        Mode_Out : out STD_LOGIC_VECTOR(1 downto 0)
-    );
-end Mode_Selector;
-
-architecture Behavioral of Mode_Selector is
-    signal mode_reg : unsigned(1 downto 0) := &quot;00&quot;;
-    signal btn_prev : std_logic := &apos;0&apos;;
-begin
-
-    process(clk, rst)
-    begin
-        if rst = &apos;1&apos; then
-            mode_reg &lt;= &quot;00&quot;;
-            btn_prev &lt;= &apos;0&apos;;
-        elsif rising_edge(clk) then
-            -- 按鍵上升緣偵測 (避免按住時連續瘋狂跳動)
-            if btn_mode = &apos;1&apos; and btn_prev = &apos;0&apos; then
-                mode_reg &lt;= mode_reg + 1;
-            end if;
-            btn_prev &lt;= btn_mode;
-        end if;
-    end process;
-
-    Mode_Out &lt;= std_logic_vector(mode_reg);
-
-end Behavioral;</string>
-        </entry>
-        <entry>
-          <string>externalOutputs</string>
-          <string>Mode_Out:2</string>
-        </entry>
-        <entry>
-          <string>Width</string>
-          <int>6</int>
-        </entry>
-      </elementAttributes>
-      <pos x="180" y="620"/>
+      <pos x="1480" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>Button</elementName>
@@ -2511,7 +2465,7 @@ end Behavioral;</string>
           <string>Mode</string>
         </entry>
       </elementAttributes>
-      <pos x="40" y="660"/>
+      <pos x="40" y="700"/>
     </visualElement>
     <visualElement>
       <elementName>External</elementName>
@@ -2679,7 +2633,7 @@ end Behavioral;</string>
           <int>5</int>
         </entry>
       </elementAttributes>
-      <pos x="180" y="740"/>
+      <pos x="180" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -2718,7 +2672,7 @@ end Behavioral;</string>
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="40" y="140"/>
+      <pos x="60" y="140"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -2736,7 +2690,7 @@ end Behavioral;</string>
           <value v="170" z="false"/>
         </entry>
       </elementAttributes>
-      <pos x="40" y="460"/>
+      <pos x="220" y="460"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -2823,27 +2777,7 @@ end Behavioral;</string>
           <int>5</int>
         </entry>
       </elementAttributes>
-      <pos x="220" y="540"/>
-    </visualElement>
-    <visualElement>
-      <elementName>VDD</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-      </elementAttributes>
-      <pos x="200" y="540"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Multiplexer</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>8</int>
-        </entry>
-      </elementAttributes>
-      <pos x="560" y="480"/>
+      <pos x="240" y="540"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -2853,10 +2787,165 @@ end Behavioral;</string>
           <int>8</int>
         </entry>
       </elementAttributes>
-      <pos x="180" y="460"/>
+      <pos x="240" y="460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>External</elementName>
+      <elementAttributes>
+        <entry>
+          <string>applicationType</string>
+          <appType>GHDL</appType>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>reg_setup</string>
+        </entry>
+        <entry>
+          <string>externalInputs</string>
+          <string>clk,rst,diff_in,mode_in:2,en</string>
+        </entry>
+        <entry>
+          <string>Code</string>
+          <string>library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity reg_setup is
+    Port ( 
+        clk : in  STD_LOGIC;
+        rst : in  STD_LOGIC;
+        diff_in  : in  STD_LOGIC;                   
+        mode_in  : in  STD_LOGIC_VECTOR(1 downto 0);                   
+        en  : in  STD_LOGIC;                   
+        mode_out  : out  STD_LOGIC_VECTOR(1 downto 0);                   
+        diff_out  : out  STD_LOGIC                   
+    );
+end reg_setup;
+
+architecture Behavioral of reg_setup is
+signal tmp_diff: STD_LOGIC:= &apos;0&apos;;
+signal tmp_mode: STD_LOGIC_VECTOR(1 downto 0):= &quot;00&quot;;
+begin
+    process(clk, rst)
+    begin
+        tmp_diff &lt;= diff_in;
+        tmp_mode &lt;= mode_in;
+        if rst = &apos;1&apos; then
+            tmp_mode &lt;= &quot;00&quot;;
+            tmp_diff &lt;= &apos;0&apos;;
+        elsif rising_edge(clk) then
+            if en = &apos;1&apos; then
+                mode_out &lt;= tmp_mode;
+                diff_out &lt;= tmp_diff;
+            end if;
+        end if;
+    end process;
+end Behavioral;</string>
+        </entry>
+        <entry>
+          <string>externalOutputs</string>
+          <string>mode_out:2,diff_out</string>
+        </entry>
+        <entry>
+          <string>Width</string>
+          <int>6</int>
+        </entry>
+      </elementAttributes>
+      <pos x="280" y="620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>External</elementName>
+      <elementAttributes>
+        <entry>
+          <string>applicationType</string>
+          <appType>GHDL</appType>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Mode_Selector</string>
+        </entry>
+        <entry>
+          <string>externalInputs</string>
+          <string>clk,rst,btn_mode</string>
+        </entry>
+        <entry>
+          <string>Code</string>
+          <string>library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity Mode_Selector is
+    Port (
+        clk      : in  STD_LOGIC;
+        rst      : in  STD_LOGIC;
+        btn_mode : in  STD_LOGIC;
+        Mode_Out : out STD_LOGIC_VECTOR(1 downto 0)
+    );
+end Mode_Selector;
+
+architecture Behavioral of Mode_Selector is
+    signal mode_reg : unsigned(1 downto 0) := &quot;00&quot;;
+    signal btn_prev : std_logic := &apos;0&apos;;
+begin
+
+    process(clk, rst)
+    begin
+        if rst = &apos;1&apos; then
+            mode_reg &lt;= &quot;00&quot;;
+            btn_prev &lt;= &apos;0&apos;;
+        elsif rising_edge(clk) then
+            -- 按鍵上升緣偵測 (避免按住時連續瘋狂跳動)
+            if btn_mode = &apos;1&apos; and btn_prev = &apos;0&apos; then
+                mode_reg &lt;= mode_reg + 1;
+            end if;
+            btn_prev &lt;= btn_mode;
+        end if;
+    end process;
+
+    Mode_Out &lt;= std_logic_vector(mode_reg);
+
+end Behavioral;</string>
+        </entry>
+        <entry>
+          <string>externalOutputs</string>
+          <string>Mode_Out:2</string>
+        </entry>
+        <entry>
+          <string>Width</string>
+          <int>6</int>
+        </entry>
+      </elementAttributes>
+      <pos x="120" y="660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Multiplexer</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="640" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Multiplexer</elementName>
+      <elementAttributes>
+        <entry>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="260" y="300"/>
     </visualElement>
   </visualElements>
   <wires>
+    <wire>
+      <p1 x="420" y="320"/>
+      <p2 x="740" y="320"/>
+    </wire>
     <wire>
       <p1 x="980" y="320"/>
       <p2 x="1040" y="320"/>
@@ -2866,28 +2955,48 @@ end Behavioral;</string>
       <p2 x="840" y="320"/>
     </wire>
     <wire>
-      <p1 x="420" y="320"/>
-      <p2 x="720" y="320"/>
+      <p1 x="300" y="320"/>
+      <p2 x="320" y="320"/>
     </wire>
     <wire>
-      <p1 x="720" y="320"/>
-      <p2 x="760" y="320"/>
+      <p1 x="480" y="640"/>
+      <p2 x="500" y="640"/>
     </wire>
     <wire>
-      <p1 x="1320" y="640"/>
-      <p2 x="1360" y="640"/>
+      <p1 x="1020" y="640"/>
+      <p2 x="1080" y="640"/>
     </wire>
     <wire>
-      <p1 x="140" y="640"/>
-      <p2 x="180" y="640"/>
+      <p1 x="400" y="640"/>
+      <p2 x="460" y="640"/>
     </wire>
     <wire>
-      <p1 x="300" y="640"/>
-      <p2 x="340" y="640"/>
+      <p1 x="40" y="640"/>
+      <p2 x="240" y="640"/>
     </wire>
     <wire>
-      <p1 x="460" y="640"/>
-      <p2 x="1000" y="640"/>
+      <p1 x="260" y="640"/>
+      <p2 x="280" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="580"/>
+      <p2 x="680" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="580"/>
+      <p2 x="500" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="580"/>
+      <p2 x="1060" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="580"/>
+      <p2 x="1140" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="580"/>
+      <p2 x="440" y="580"/>
     </wire>
     <wire>
       <p1 x="780" y="260"/>
@@ -2906,92 +3015,88 @@ end Behavioral;</string>
       <p2 x="1080" y="260"/>
     </wire>
     <wire>
-      <p1 x="40" y="260"/>
-      <p2 x="280" y="260"/>
+      <p1 x="280" y="260"/>
+      <p2 x="360" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="260"/>
+      <p2 x="740" y="260"/>
     </wire>
     <wire>
       <p1 x="360" y="260"/>
       <p2 x="420" y="260"/>
     </wire>
     <wire>
-      <p1 x="280" y="260"/>
-      <p2 x="360" y="260"/>
+      <p1 x="1020" y="900"/>
+      <p2 x="1040" y="900"/>
     </wire>
     <wire>
-      <p1 x="100" y="580"/>
-      <p2 x="480" y="580"/>
-    </wire>
-    <wire>
-      <p1 x="1120" y="580"/>
-      <p2 x="1140" y="580"/>
-    </wire>
-    <wire>
-      <p1 x="980" y="580"/>
-      <p2 x="1020" y="580"/>
-    </wire>
-    <wire>
-      <p1 x="640" y="580"/>
-      <p2 x="700" y="580"/>
-    </wire>
-    <wire>
-      <p1 x="400" y="520"/>
-      <p2 x="560" y="520"/>
-    </wire>
-    <wire>
-      <p1 x="1040" y="520"/>
+      <p1 x="1080" y="520"/>
       <p2 x="1400" y="520"/>
     </wire>
     <wire>
-      <p1 x="720" y="520"/>
-      <p2 x="780" y="520"/>
+      <p1 x="760" y="520"/>
+      <p2 x="820" y="520"/>
     </wire>
     <wire>
-      <p1 x="980" y="520"/>
-      <p2 x="1020" y="520"/>
+      <p1 x="1020" y="520"/>
+      <p2 x="1060" y="520"/>
     </wire>
     <wire>
-      <p1 x="180" y="520"/>
-      <p2 x="380" y="520"/>
+      <p1 x="200" y="520"/>
+      <p2 x="360" y="520"/>
     </wire>
     <wire>
-      <p1 x="1020" y="840"/>
-      <p2 x="1040" y="840"/>
+      <p1 x="380" y="520"/>
+      <p2 x="500" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="520"/>
+      <p2 x="740" y="520"/>
     </wire>
     <wire>
       <p1 x="300" y="200"/>
       <p2 x="400" y="200"/>
     </wire>
     <wire>
-      <p1 x="980" y="460"/>
+      <p1 x="1320" y="840"/>
+      <p2 x="1480" y="840"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="840"/>
+      <p2 x="180" y="840"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="460"/>
       <p2 x="1280" y="460"/>
     </wire>
     <wire>
-      <p1 x="760" y="460"/>
-      <p2 x="780" y="460"/>
+      <p1 x="640" y="460"/>
+      <p2 x="680" y="460"/>
     </wire>
     <wire>
-      <p1 x="540" y="460"/>
-      <p2 x="660" y="460"/>
+      <p1 x="220" y="460"/>
+      <p2 x="240" y="460"/>
     </wire>
     <wire>
-      <p1 x="340" y="460"/>
-      <p2 x="400" y="460"/>
+      <p1 x="780" y="460"/>
+      <p2 x="820" y="460"/>
     </wire>
     <wire>
       <p1 x="440" y="460"/>
-      <p2 x="460" y="460"/>
+      <p2 x="480" y="460"/>
     </wire>
     <wire>
-      <p1 x="40" y="460"/>
-      <p2 x="180" y="460"/>
+      <p1 x="320" y="460"/>
+      <p2 x="400" y="460"/>
     </wire>
     <wire>
-      <p1 x="1340" y="780"/>
-      <p2 x="1500" y="780"/>
+      <p1 x="500" y="460"/>
+      <p2 x="600" y="460"/>
     </wire>
     <wire>
-      <p1 x="140" y="780"/>
-      <p2 x="180" y="780"/>
+      <p1 x="700" y="460"/>
+      <p2 x="720" y="460"/>
     </wire>
     <wire>
       <p1 x="320" y="140"/>
@@ -3002,11 +3107,15 @@ end Behavioral;</string>
       <p2 x="300" y="140"/>
     </wire>
     <wire>
-      <p1 x="40" y="140"/>
+      <p1 x="60" y="140"/>
       <p2 x="80" y="140"/>
     </wire>
     <wire>
       <p1 x="80" y="140"/>
+      <p2 x="100" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="140"/>
       <p2 x="120" y="140"/>
     </wire>
     <wire>
@@ -3014,32 +3123,44 @@ end Behavioral;</string>
       <p2 x="140" y="140"/>
     </wire>
     <wire>
-      <p1 x="360" y="720"/>
-      <p2 x="1300" y="720"/>
+      <p1 x="360" y="780"/>
+      <p2 x="1300" y="780"/>
     </wire>
     <wire>
-      <p1 x="160" y="720"/>
-      <p2 x="340" y="720"/>
-    </wire>
-    <wire>
-      <p1 x="700" y="400"/>
-      <p2 x="1300" y="400"/>
-    </wire>
-    <wire>
-      <p1 x="180" y="400"/>
+      <p1 x="160" y="400"/>
       <p2 x="200" y="400"/>
     </wire>
     <wire>
       <p1 x="300" y="400"/>
-      <p2 x="380" y="400"/>
+      <p2 x="360" y="400"/>
     </wire>
     <wire>
-      <p1 x="400" y="400"/>
-      <p2 x="460" y="400"/>
+      <p1 x="380" y="400"/>
+      <p2 x="480" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="400"/>
+      <p2 x="1300" y="400"/>
     </wire>
     <wire>
       <p1 x="1300" y="400"/>
       <p2 x="1460" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="720"/>
+      <p2 x="1080" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="1320" y="660"/>
+      <p2 x="1360" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="660"/>
+      <p2 x="280" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="660"/>
+      <p2 x="1120" y="660"/>
     </wire>
     <wire>
       <p1 x="820" y="340"/>
@@ -3050,28 +3171,40 @@ end Behavioral;</string>
       <p2 x="500" y="340"/>
     </wire>
     <wire>
-      <p1 x="520" y="340"/>
-      <p2 x="740" y="340"/>
+      <p1 x="240" y="340"/>
+      <p2 x="260" y="340"/>
     </wire>
     <wire>
-      <p1 x="740" y="340"/>
-      <p2 x="780" y="340"/>
+      <p1 x="500" y="340"/>
+      <p2 x="760" y="340"/>
     </wire>
     <wire>
       <p1 x="1120" y="20"/>
       <p2 x="1140" y="20"/>
     </wire>
     <wire>
-      <p1 x="40" y="660"/>
-      <p2 x="180" y="660"/>
+      <p1 x="660" y="600"/>
+      <p2 x="820" y="600"/>
     </wire>
     <wire>
-      <p1 x="440" y="660"/>
-      <p2 x="1120" y="660"/>
+      <p1 x="1020" y="600"/>
+      <p2 x="1080" y="600"/>
     </wire>
     <wire>
-      <p1 x="340" y="660"/>
-      <p2 x="420" y="660"/>
+      <p1 x="1120" y="600"/>
+      <p2 x="1140" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="600"/>
+      <p2 x="120" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="600"/>
+      <p2 x="260" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="600"/>
+      <p2 x="500" y="600"/>
     </wire>
     <wire>
       <p1 x="820" y="280"/>
@@ -3106,48 +3239,20 @@ end Behavioral;</string>
       <p2 x="1040" y="280"/>
     </wire>
     <wire>
-      <p1 x="380" y="280"/>
-      <p2 x="400" y="280"/>
+      <p1 x="40" y="280"/>
+      <p2 x="140" y="280"/>
     </wire>
     <wire>
-      <p1 x="420" y="600"/>
-      <p2 x="480" y="600"/>
+      <p1 x="140" y="280"/>
+      <p2 x="180" y="280"/>
     </wire>
     <wire>
-      <p1 x="980" y="600"/>
-      <p2 x="1100" y="600"/>
+      <p1 x="340" y="280"/>
+      <p2 x="420" y="280"/>
     </wire>
     <wire>
-      <p1 x="640" y="600"/>
-      <p2 x="660" y="600"/>
-    </wire>
-    <wire>
-      <p1 x="700" y="600"/>
-      <p2 x="780" y="600"/>
-    </wire>
-    <wire>
-      <p1 x="200" y="540"/>
-      <p2 x="220" y="540"/>
-    </wire>
-    <wire>
-      <p1 x="1000" y="540"/>
-      <p2 x="1040" y="540"/>
-    </wire>
-    <wire>
-      <p1 x="1420" y="540"/>
-      <p2 x="1440" y="540"/>
-    </wire>
-    <wire>
-      <p1 x="700" y="540"/>
-      <p2 x="760" y="540"/>
-    </wire>
-    <wire>
-      <p1 x="540" y="540"/>
-      <p2 x="580" y="540"/>
-    </wire>
-    <wire>
-      <p1 x="320" y="540"/>
-      <p2 x="400" y="540"/>
+      <p1 x="180" y="280"/>
+      <p2 x="340" y="280"/>
     </wire>
     <wire>
       <p1 x="240" y="220"/>
@@ -3158,36 +3263,56 @@ end Behavioral;</string>
       <p2 x="140" y="220"/>
     </wire>
     <wire>
-      <p1 x="60" y="220"/>
-      <p2 x="100" y="220"/>
+      <p1 x="780" y="860"/>
+      <p2 x="1040" y="860"/>
     </wire>
     <wire>
-      <p1 x="240" y="480"/>
-      <p2 x="300" y="480"/>
+      <p1 x="1040" y="540"/>
+      <p2 x="1080" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="1420" y="540"/>
+      <p2 x="1440" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="540"/>
+      <p2 x="380" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="540"/>
+      <p2 x="800" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="540"/>
+      <p2 x="700" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="540"/>
+      <p2 x="240" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="80" y="800"/>
+      <p2 x="180" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="480"/>
+      <p2 x="380" y="480"/>
     </wire>
     <wire>
       <p1 x="60" y="480"/>
-      <p2 x="180" y="480"/>
+      <p2 x="240" y="480"/>
     </wire>
     <wire>
-      <p1 x="980" y="480"/>
+      <p1 x="1020" y="480"/>
       <p2 x="1440" y="480"/>
-    </wire>
-    <wire>
-      <p1 x="740" y="480"/>
-      <p2 x="780" y="480"/>
-    </wire>
-    <wire>
-      <p1 x="540" y="480"/>
-      <p2 x="560" y="480"/>
     </wire>
     <wire>
       <p1 x="400" y="480"/>
       <p2 x="440" y="480"/>
     </wire>
     <wire>
-      <p1 x="740" y="800"/>
-      <p2 x="1040" y="800"/>
+      <p1 x="740" y="480"/>
+      <p2 x="820" y="480"/>
     </wire>
     <wire>
       <p1 x="360" y="160"/>
@@ -3207,51 +3332,63 @@ end Behavioral;</string>
     </wire>
     <wire>
       <p1 x="800" y="420"/>
-      <p2 x="1080" y="420"/>
+      <p2 x="1120" y="420"/>
     </wire>
     <wire>
-      <p1 x="680" y="420"/>
-      <p2 x="700" y="420"/>
+      <p1 x="360" y="420"/>
+      <p2 x="480" y="420"/>
     </wire>
     <wire>
-      <p1 x="380" y="420"/>
-      <p2 x="460" y="420"/>
-    </wire>
-    <wire>
-      <p1 x="80" y="740"/>
-      <p2 x="180" y="740"/>
+      <p1 x="740" y="420"/>
+      <p2 x="780" y="420"/>
     </wire>
     <wire>
       <p1 x="300" y="100"/>
       <p2 x="360" y="100"/>
     </wire>
     <wire>
-      <p1 x="540" y="360"/>
+      <p1 x="720" y="740"/>
+      <p2 x="1100" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="740"/>
+      <p2 x="420" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="680"/>
+      <p2 x="280" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="680"/>
+      <p2 x="1060" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="680"/>
+      <p2 x="120" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="360"/>
       <p2 x="840" y="360"/>
     </wire>
     <wire>
       <p1 x="40" y="360"/>
-      <p2 x="100" y="360"/>
+      <p2 x="120" y="360"/>
     </wire>
     <wire>
-      <p1 x="140" y="360"/>
-      <p2 x="180" y="360"/>
+      <p1 x="160" y="360"/>
+      <p2 x="720" y="360"/>
     </wire>
     <wire>
-      <p1 x="180" y="360"/>
-      <p2 x="520" y="360"/>
-    </wire>
-    <wire>
-      <p1 x="100" y="360"/>
-      <p2 x="140" y="360"/>
+      <p1 x="120" y="360"/>
+      <p2 x="160" y="360"/>
     </wire>
     <wire>
       <p1 x="1100" y="40"/>
       <p2 x="1340" y="40"/>
     </wire>
     <wire>
-      <p1 x="160" y="680"/>
-      <p2 x="1060" y="680"/>
+      <p1 x="720" y="300"/>
+      <p2 x="840" y="300"/>
     </wire>
     <wire>
       <p1 x="960" y="300"/>
@@ -3262,168 +3399,156 @@ end Behavioral;</string>
       <p2 x="1160" y="300"/>
     </wire>
     <wire>
-      <p1 x="780" y="300"/>
-      <p2 x="840" y="300"/>
-    </wire>
-    <wire>
-      <p1 x="720" y="300"/>
-      <p2 x="740" y="300"/>
-    </wire>
-    <wire>
       <p1 x="440" y="300"/>
-      <p2 x="700" y="300"/>
+      <p2 x="540" y="300"/>
     </wire>
     <wire>
-      <p1 x="40" y="300"/>
-      <p2 x="120" y="300"/>
+      <p1 x="660" y="620"/>
+      <p2 x="680" y="620"/>
     </wire>
     <wire>
-      <p1 x="160" y="300"/>
-      <p2 x="320" y="300"/>
+      <p1 x="400" y="620"/>
+      <p2 x="420" y="620"/>
     </wire>
     <wire>
-      <p1 x="120" y="300"/>
-      <p2 x="160" y="300"/>
-    </wire>
-    <wire>
-      <p1 x="320" y="300"/>
-      <p2 x="420" y="300"/>
-    </wire>
-    <wire>
-      <p1 x="980" y="620"/>
-      <p2 x="1000" y="620"/>
+      <p1 x="1020" y="620"/>
+      <p2 x="1060" y="620"/>
     </wire>
     <wire>
       <p1 x="120" y="620"/>
-      <p2 x="180" y="620"/>
+      <p2 x="140" y="620"/>
     </wire>
     <wire>
-      <p1 x="460" y="620"/>
-      <p2 x="480" y="620"/>
+      <p1 x="420" y="620"/>
+      <p2 x="500" y="620"/>
     </wire>
     <wire>
-      <p1 x="180" y="560"/>
-      <p2 x="220" y="560"/>
+      <p1 x="140" y="620"/>
+      <p2 x="280" y="620"/>
     </wire>
     <wire>
-      <p1 x="1040" y="560"/>
-      <p2 x="1080" y="560"/>
-    </wire>
-    <wire>
-      <p1 x="1100" y="560"/>
-      <p2 x="1140" y="560"/>
-    </wire>
-    <wire>
-      <p1 x="640" y="560"/>
-      <p2 x="660" y="560"/>
-    </wire>
-    <wire>
-      <p1 x="460" y="560"/>
-      <p2 x="480" y="560"/>
-    </wire>
-    <wire>
-      <p1 x="340" y="560"/>
-      <p2 x="360" y="560"/>
+      <p1 x="60" y="240"/>
+      <p2 x="140" y="240"/>
     </wire>
     <wire>
       <p1 x="240" y="240"/>
       <p2 x="400" y="240"/>
     </wire>
     <wire>
-      <p1 x="100" y="240"/>
-      <p2 x="140" y="240"/>
+      <p1 x="200" y="560"/>
+      <p2 x="240" y="560"/>
     </wire>
     <wire>
-      <p1 x="240" y="180"/>
-      <p2 x="340" y="180"/>
+      <p1 x="1080" y="560"/>
+      <p2 x="1120" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="560"/>
+      <p2 x="720" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="60" y="880"/>
+      <p2 x="860" y="880"/>
     </wire>
     <wire>
       <p1 x="380" y="180"/>
       <p2 x="420" y="180"/>
     </wire>
     <wire>
-      <p1 x="740" y="500"/>
-      <p2 x="780" y="500"/>
+      <p1 x="240" y="180"/>
+      <p2 x="260" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="280" y="820"/>
+      <p2 x="340" y="820"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="820"/>
+      <p2 x="1300" y="820"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="820"/>
+      <p2 x="180" y="820"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="500"/>
+      <p2 x="820" y="500"/>
     </wire>
     <wire>
       <p1 x="1420" y="500"/>
       <p2 x="1440" y="500"/>
     </wire>
     <wire>
-      <p1 x="600" y="500"/>
-      <p2 x="680" y="500"/>
+      <p1 x="380" y="500"/>
+      <p2 x="600" y="500"/>
     </wire>
     <wire>
-      <p1 x="300" y="500"/>
-      <p2 x="540" y="500"/>
-    </wire>
-    <wire>
-      <p1 x="980" y="500"/>
-      <p2 x="1060" y="500"/>
+      <p1 x="1020" y="500"/>
+      <p2 x="1100" y="500"/>
     </wire>
     <wire>
       <p1 x="1240" y="500"/>
       <p2 x="1400" y="500"/>
     </wire>
     <wire>
-      <p1 x="1060" y="500"/>
+      <p1 x="1100" y="500"/>
       <p2 x="1240" y="500"/>
     </wire>
     <wire>
-      <p1 x="60" y="820"/>
-      <p2 x="860" y="820"/>
+      <p1 x="160" y="760"/>
+      <p2 x="680" y="760"/>
     </wire>
     <wire>
       <p1 x="1200" y="440"/>
       <p2 x="1340" y="440"/>
     </wire>
     <wire>
-      <p1 x="720" y="440"/>
+      <p1 x="760" y="440"/>
       <p2 x="1160" y="440"/>
     </wire>
     <wire>
-      <p1 x="320" y="440"/>
+      <p1 x="340" y="440"/>
       <p2 x="440" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="440"/>
+      <p2 x="740" y="440"/>
     </wire>
     <wire>
       <p1 x="400" y="120"/>
       <p2 x="420" y="120"/>
     </wire>
     <wire>
-      <p1 x="280" y="760"/>
-      <p2 x="340" y="760"/>
+      <p1 x="40" y="700"/>
+      <p2 x="120" y="700"/>
     </wire>
     <wire>
-      <p1 x="160" y="760"/>
-      <p2 x="180" y="760"/>
+      <p1 x="740" y="700"/>
+      <p2 x="1320" y="700"/>
     </wire>
     <wire>
-      <p1 x="360" y="760"/>
-      <p2 x="1300" y="760"/>
+      <p1 x="260" y="700"/>
+      <p2 x="280" y="700"/>
     </wire>
     <wire>
-      <p1 x="160" y="380"/>
+      <p1 x="540" y="380"/>
+      <p2 x="760" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="380"/>
       <p2 x="200" y="380"/>
     </wire>
     <wire>
-      <p1 x="720" y="380"/>
-      <p2 x="1220" y="380"/>
+      <p1 x="360" y="380"/>
+      <p2 x="460" y="380"/>
     </wire>
     <wire>
-      <p1 x="360" y="380"/>
-      <p2 x="540" y="380"/>
+      <p1 x="780" y="380"/>
+      <p2 x="1220" y="380"/>
     </wire>
     <wire>
       <p1 x="1220" y="380"/>
       <p2 x="1380" y="380"/>
-    </wire>
-    <wire>
-      <p1 x="140" y="700"/>
-      <p2 x="660" y="700"/>
-    </wire>
-    <wire>
-      <p1 x="680" y="700"/>
-      <p2 x="1340" y="700"/>
     </wire>
     <wire>
       <p1 x="780" y="60"/>
@@ -3446,6 +3571,10 @@ end Behavioral;</string>
       <p2 x="600" y="60"/>
     </wire>
     <wire>
+      <p1 x="640" y="460"/>
+      <p2 x="640" y="480"/>
+    </wire>
+    <wire>
       <p1 x="640" y="240"/>
       <p2 x="640" y="260"/>
     </wire>
@@ -3458,6 +3587,18 @@ end Behavioral;</string>
       <p2 x="1280" y="460"/>
     </wire>
     <wire>
+      <p1 x="260" y="600"/>
+      <p2 x="260" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="700"/>
+      <p2 x="260" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="180"/>
+      <p2 x="260" y="300"/>
+    </wire>
+    <wire>
       <p1 x="1160" y="300"/>
       <p2 x="1160" y="440"/>
     </wire>
@@ -3466,20 +3607,12 @@ end Behavioral;</string>
       <p2 x="520" y="260"/>
     </wire>
     <wire>
-      <p1 x="520" y="340"/>
-      <p2 x="520" y="360"/>
+      <p1 x="140" y="280"/>
+      <p2 x="140" y="620"/>
     </wire>
     <wire>
-      <p1 x="140" y="360"/>
-      <p2 x="140" y="640"/>
-    </wire>
-    <wire>
-      <p1 x="140" y="700"/>
-      <p2 x="140" y="780"/>
-    </wire>
-    <wire>
-      <p1 x="780" y="300"/>
-      <p2 x="780" y="340"/>
+      <p1 x="140" y="740"/>
+      <p2 x="140" y="820"/>
     </wire>
     <wire>
       <p1 x="780" y="260"/>
@@ -3490,6 +3623,18 @@ end Behavioral;</string>
       <p2 x="780" y="60"/>
     </wire>
     <wire>
+      <p1 x="780" y="500"/>
+      <p2 x="780" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="380"/>
+      <p2 x="780" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="420"/>
+      <p2 x="780" y="460"/>
+    </wire>
+    <wire>
       <p1 x="1420" y="240"/>
       <p2 x="1420" y="260"/>
     </wire>
@@ -3498,36 +3643,20 @@ end Behavioral;</string>
       <p2 x="1420" y="520"/>
     </wire>
     <wire>
-      <p1 x="1040" y="800"/>
-      <p2 x="1040" y="840"/>
-    </wire>
-    <wire>
-      <p1 x="1040" y="20"/>
-      <p2 x="1040" y="40"/>
-    </wire>
-    <wire>
-      <p1 x="1040" y="520"/>
-      <p2 x="1040" y="540"/>
+      <p1 x="1420" y="820"/>
+      <p2 x="1420" y="860"/>
     </wire>
     <wire>
       <p1 x="400" y="460"/>
       <p2 x="400" y="480"/>
     </wire>
     <wire>
-      <p1 x="400" y="280"/>
-      <p2 x="400" y="400"/>
+      <p1 x="1040" y="860"/>
+      <p2 x="1040" y="900"/>
     </wire>
     <wire>
-      <p1 x="400" y="520"/>
-      <p2 x="400" y="540"/>
-    </wire>
-    <wire>
-      <p1 x="660" y="600"/>
-      <p2 x="660" y="700"/>
-    </wire>
-    <wire>
-      <p1 x="660" y="460"/>
-      <p2 x="660" y="560"/>
+      <p1 x="1040" y="20"/>
+      <p2 x="1040" y="40"/>
     </wire>
     <wire>
       <p1 x="1300" y="240"/>
@@ -3542,40 +3671,16 @@ end Behavioral;</string>
       <p2 x="280" y="260"/>
     </wire>
     <wire>
-      <p1 x="540" y="460"/>
-      <p2 x="540" y="480"/>
+      <p1 x="280" y="260"/>
+      <p2 x="280" y="300"/>
     </wire>
     <wire>
       <p1 x="540" y="60"/>
       <p2 x="540" y="80"/>
     </wire>
     <wire>
-      <p1 x="540" y="500"/>
-      <p2 x="540" y="540"/>
-    </wire>
-    <wire>
-      <p1 x="540" y="360"/>
+      <p1 x="540" y="300"/>
       <p2 x="540" y="380"/>
-    </wire>
-    <wire>
-      <p1 x="160" y="420"/>
-      <p2 x="160" y="680"/>
-    </wire>
-    <wire>
-      <p1 x="160" y="300"/>
-      <p2 x="160" y="380"/>
-    </wire>
-    <wire>
-      <p1 x="160" y="720"/>
-      <p2 x="160" y="760"/>
-    </wire>
-    <wire>
-      <p1 x="1440" y="760"/>
-      <p2 x="1440" y="800"/>
-    </wire>
-    <wire>
-      <p1 x="1440" y="360"/>
-      <p2 x="1440" y="480"/>
     </wire>
     <wire>
       <p1 x="800" y="20"/>
@@ -3586,8 +3691,24 @@ end Behavioral;</string>
       <p2 x="800" y="420"/>
     </wire>
     <wire>
+      <p1 x="160" y="760"/>
+      <p2 x="160" y="840"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="360"/>
+      <p2 x="160" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="420"/>
+      <p2 x="160" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="1440" y="360"/>
+      <p2 x="1440" y="480"/>
+    </wire>
+    <wire>
       <p1 x="420" y="340"/>
-      <p2 x="420" y="600"/>
+      <p2 x="420" y="620"/>
     </wire>
     <wire>
       <p1 x="420" y="240"/>
@@ -3598,36 +3719,40 @@ end Behavioral;</string>
       <p2 x="420" y="180"/>
     </wire>
     <wire>
-      <p1 x="420" y="300"/>
+      <p1 x="420" y="280"/>
       <p2 x="420" y="320"/>
     </wire>
     <wire>
-      <p1 x="420" y="600"/>
-      <p2 x="420" y="660"/>
+      <p1 x="420" y="620"/>
+      <p2 x="420" y="740"/>
     </wire>
     <wire>
-      <p1 x="1060" y="500"/>
+      <p1 x="1060" y="620"/>
       <p2 x="1060" y="680"/>
     </wire>
     <wire>
-      <p1 x="680" y="400"/>
-      <p2 x="680" y="420"/>
+      <p1 x="1060" y="520"/>
+      <p2 x="1060" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="460"/>
+      <p2 x="680" y="580"/>
     </wire>
     <wire>
       <p1 x="680" y="60"/>
       <p2 x="680" y="80"/>
     </wire>
     <wire>
-      <p1 x="680" y="500"/>
-      <p2 x="680" y="700"/>
+      <p1 x="680" y="620"/>
+      <p2 x="680" y="760"/>
     </wire>
     <wire>
       <p1 x="1320" y="240"/>
       <p2 x="1320" y="260"/>
     </wire>
     <wire>
-      <p1 x="300" y="480"/>
-      <p2 x="300" y="500"/>
+      <p1 x="1320" y="700"/>
+      <p2 x="1320" y="840"/>
     </wire>
     <wire>
       <p1 x="300" y="160"/>
@@ -3642,6 +3767,10 @@ end Behavioral;</string>
       <p2 x="1200" y="440"/>
     </wire>
     <wire>
+      <p1 x="180" y="280"/>
+      <p2 x="180" y="380"/>
+    </wire>
+    <wire>
       <p1 x="820" y="240"/>
       <p2 x="820" y="260"/>
     </wire>
@@ -3650,12 +3779,8 @@ end Behavioral;</string>
       <p2 x="1460" y="400"/>
     </wire>
     <wire>
-      <p1 x="180" y="360"/>
-      <p2 x="180" y="400"/>
-    </wire>
-    <wire>
-      <p1 x="180" y="520"/>
-      <p2 x="180" y="560"/>
+      <p1 x="440" y="440"/>
+      <p2 x="440" y="460"/>
     </wire>
     <wire>
       <p1 x="440" y="220"/>
@@ -3663,75 +3788,71 @@ end Behavioral;</string>
     </wire>
     <wire>
       <p1 x="440" y="480"/>
-      <p2 x="440" y="660"/>
+      <p2 x="440" y="540"/>
     </wire>
     <wire>
-      <p1 x="440" y="440"/>
-      <p2 x="440" y="460"/>
+      <p1 x="440" y="560"/>
+      <p2 x="440" y="580"/>
     </wire>
     <wire>
       <p1 x="440" y="280"/>
       <p2 x="440" y="300"/>
     </wire>
     <wire>
-      <p1 x="1080" y="420"/>
-      <p2 x="1080" y="560"/>
+      <p1 x="1080" y="520"/>
+      <p2 x="1080" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="640"/>
+      <p2 x="1080" y="720"/>
     </wire>
     <wire>
       <p1 x="1080" y="240"/>
       <p2 x="1080" y="260"/>
     </wire>
     <wire>
-      <p1 x="700" y="300"/>
-      <p2 x="700" y="400"/>
+      <p1 x="1080" y="580"/>
+      <p2 x="1080" y="600"/>
     </wire>
     <wire>
-      <p1 x="700" y="420"/>
-      <p2 x="700" y="540"/>
+      <p1 x="700" y="540"/>
+      <p2 x="700" y="660"/>
     </wire>
     <wire>
-      <p1 x="700" y="580"/>
-      <p2 x="700" y="600"/>
+      <p1 x="700" y="400"/>
+      <p2 x="700" y="460"/>
     </wire>
     <wire>
       <p1 x="1340" y="440"/>
-      <p2 x="1340" y="560"/>
+      <p2 x="1340" y="580"/>
     </wire>
     <wire>
       <p1 x="1340" y="40"/>
       <p2 x="1340" y="260"/>
     </wire>
     <wire>
-      <p1 x="1340" y="700"/>
-      <p2 x="1340" y="780"/>
-    </wire>
-    <wire>
       <p1 x="60" y="160"/>
-      <p2 x="60" y="220"/>
+      <p2 x="60" y="240"/>
     </wire>
     <wire>
-      <p1 x="60" y="220"/>
+      <p1 x="60" y="240"/>
       <p2 x="60" y="480"/>
     </wire>
     <wire>
       <p1 x="60" y="480"/>
-      <p2 x="60" y="820"/>
-    </wire>
-    <wire>
-      <p1 x="320" y="300"/>
-      <p2 x="320" y="440"/>
+      <p2 x="60" y="880"/>
     </wire>
     <wire>
       <p1 x="320" y="140"/>
       <p2 x="320" y="220"/>
     </wire>
     <wire>
-      <p1 x="960" y="20"/>
-      <p2 x="960" y="40"/>
+      <p1 x="320" y="320"/>
+      <p2 x="320" y="460"/>
     </wire>
     <wire>
-      <p1 x="580" y="520"/>
-      <p2 x="580" y="540"/>
+      <p1 x="960" y="20"/>
+      <p2 x="960" y="40"/>
     </wire>
     <wire>
       <p1 x="580" y="240"/>
@@ -3750,6 +3871,10 @@ end Behavioral;</string>
       <p2 x="1220" y="380"/>
     </wire>
     <wire>
+      <p1 x="200" y="520"/>
+      <p2 x="200" y="560"/>
+    </wire>
+    <wire>
       <p1 x="840" y="240"/>
       <p2 x="840" y="260"/>
     </wire>
@@ -3766,52 +3891,44 @@ end Behavioral;</string>
       <p2 x="1100" y="260"/>
     </wire>
     <wire>
-      <p1 x="1100" y="560"/>
-      <p2 x="1100" y="600"/>
+      <p1 x="1100" y="500"/>
+      <p2 x="1100" y="740"/>
     </wire>
     <wire>
-      <p1 x="460" y="620"/>
+      <p1 x="460" y="380"/>
       <p2 x="460" y="640"/>
     </wire>
     <wire>
-      <p1 x="460" y="460"/>
-      <p2 x="460" y="560"/>
+      <p1 x="720" y="300"/>
+      <p2 x="720" y="360"/>
     </wire>
     <wire>
-      <p1 x="720" y="440"/>
-      <p2 x="720" y="520"/>
+      <p1 x="720" y="460"/>
+      <p2 x="720" y="540"/>
     </wire>
     <wire>
-      <p1 x="720" y="320"/>
-      <p2 x="720" y="380"/>
+      <p1 x="720" y="560"/>
+      <p2 x="720" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="360"/>
+      <p2 x="720" y="440"/>
     </wire>
     <wire>
       <p1 x="1360" y="260"/>
-      <p2 x="1360" y="640"/>
+      <p2 x="1360" y="660"/>
     </wire>
     <wire>
       <p1 x="80" y="140"/>
-      <p2 x="80" y="740"/>
+      <p2 x="80" y="800"/>
     </wire>
     <wire>
-      <p1 x="340" y="180"/>
-      <p2 x="340" y="460"/>
+      <p1 x="340" y="280"/>
+      <p2 x="340" y="440"/>
     </wire>
     <wire>
-      <p1 x="340" y="740"/>
-      <p2 x="340" y="760"/>
-    </wire>
-    <wire>
-      <p1 x="340" y="560"/>
-      <p2 x="340" y="640"/>
-    </wire>
-    <wire>
-      <p1 x="340" y="640"/>
-      <p2 x="340" y="660"/>
-    </wire>
-    <wire>
-      <p1 x="340" y="660"/>
-      <p2 x="340" y="720"/>
+      <p1 x="340" y="800"/>
+      <p2 x="340" y="820"/>
     </wire>
     <wire>
       <p1 x="980" y="240"/>
@@ -3822,12 +3939,8 @@ end Behavioral;</string>
       <p2 x="980" y="320"/>
     </wire>
     <wire>
-      <p1 x="1240" y="240"/>
-      <p2 x="1240" y="260"/>
-    </wire>
-    <wire>
-      <p1 x="1240" y="360"/>
-      <p2 x="1240" y="500"/>
+      <p1 x="600" y="460"/>
+      <p2 x="600" y="480"/>
     </wire>
     <wire>
       <p1 x="600" y="240"/>
@@ -3838,11 +3951,35 @@ end Behavioral;</string>
       <p2 x="600" y="100"/>
     </wire>
     <wire>
+      <p1 x="1240" y="240"/>
+      <p2 x="1240" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="360"/>
+      <p2 x="1240" y="500"/>
+    </wire>
+    <wire>
       <p1 x="1500" y="240"/>
       <p2 x="1500" y="260"/>
     </wire>
     <wire>
-      <p1 x="1120" y="580"/>
+      <p1 x="1500" y="820"/>
+      <p2 x="1500" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="640"/>
+      <p2 x="480" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="460"/>
+      <p2 x="480" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="1120" y="420"/>
+      <p2 x="1120" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="1120" y="600"/>
       <p2 x="1120" y="660"/>
     </wire>
     <wire>
@@ -3850,15 +3987,27 @@ end Behavioral;</string>
       <p2 x="1120" y="260"/>
     </wire>
     <wire>
+      <p1 x="100" y="600"/>
+      <p2 x="100" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="140"/>
+      <p2 x="100" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="520"/>
+      <p2 x="740" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="320"/>
+      <p2 x="740" y="420"/>
+    </wire>
+    <wire>
       <p1 x="740" y="240"/>
-      <p2 x="740" y="300"/>
+      <p2 x="740" y="260"/>
     </wire>
     <wire>
-      <p1 x="740" y="500"/>
-      <p2 x="740" y="800"/>
-    </wire>
-    <wire>
-      <p1 x="740" y="340"/>
+      <p1 x="740" y="440"/>
       <p2 x="740" y="480"/>
     </wire>
     <wire>
@@ -3866,32 +4015,28 @@ end Behavioral;</string>
       <p2 x="1380" y="380"/>
     </wire>
     <wire>
-      <p1 x="100" y="360"/>
-      <p2 x="100" y="580"/>
+      <p1 x="360" y="400"/>
+      <p2 x="360" y="420"/>
     </wire>
     <wire>
-      <p1 x="100" y="220"/>
-      <p2 x="100" y="240"/>
-    </wire>
-    <wire>
-      <p1 x="360" y="720"/>
-      <p2 x="360" y="740"/>
+      <p1 x="360" y="780"/>
+      <p2 x="360" y="800"/>
     </wire>
     <wire>
       <p1 x="360" y="160"/>
       <p2 x="360" y="260"/>
     </wire>
     <wire>
-      <p1 x="360" y="380"/>
-      <p2 x="360" y="560"/>
+      <p1 x="360" y="260"/>
+      <p2 x="360" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="420"/>
+      <p2 x="360" y="520"/>
     </wire>
     <wire>
       <p1 x="1000" y="240"/>
       <p2 x="1000" y="260"/>
-    </wire>
-    <wire>
-      <p1 x="1000" y="620"/>
-      <p2 x="1000" y="640"/>
     </wire>
     <wire>
       <p1 x="620" y="240"/>
@@ -3902,32 +4047,52 @@ end Behavioral;</string>
       <p2 x="620" y="100"/>
     </wire>
     <wire>
-      <p1 x="880" y="20"/>
-      <p2 x="880" y="40"/>
+      <p1 x="240" y="640"/>
+      <p2 x="240" y="660"/>
     </wire>
     <wire>
-      <p1 x="1520" y="760"/>
-      <p2 x="1520" y="800"/>
+      <p1 x="240" y="260"/>
+      <p2 x="240" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="20"/>
+      <p2 x="880" y="40"/>
     </wire>
     <wire>
       <p1 x="500" y="260"/>
       <p2 x="500" y="340"/>
     </wire>
     <wire>
+      <p1 x="500" y="460"/>
+      <p2 x="500" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="440"/>
+      <p2 x="760" y="520"/>
+    </wire>
+    <wire>
       <p1 x="760" y="240"/>
       <p2 x="760" y="260"/>
     </wire>
     <wire>
-      <p1 x="760" y="320"/>
-      <p2 x="760" y="460"/>
+      <p1 x="760" y="380"/>
+      <p2 x="760" y="400"/>
     </wire>
     <wire>
-      <p1 x="120" y="300"/>
-      <p2 x="120" y="620"/>
+      <p1 x="760" y="340"/>
+      <p2 x="760" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="360"/>
+      <p2 x="120" y="600"/>
     </wire>
     <wire>
       <p1 x="120" y="140"/>
       <p2 x="120" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="620"/>
+      <p2 x="120" y="660"/>
     </wire>
     <wire>
       <p1 x="1400" y="360"/>
@@ -3938,24 +4103,20 @@ end Behavioral;</string>
       <p2 x="1400" y="280"/>
     </wire>
     <wire>
-      <p1 x="380" y="400"/>
-      <p2 x="380" y="420"/>
+      <p1 x="380" y="180"/>
+      <p2 x="380" y="400"/>
     </wire>
     <wire>
-      <p1 x="380" y="180"/>
-      <p2 x="380" y="280"/>
+      <p1 x="380" y="520"/>
+      <p2 x="380" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="480"/>
+      <p2 x="380" y="500"/>
     </wire>
     <wire>
       <p1 x="380" y="140"/>
       <p2 x="380" y="160"/>
-    </wire>
-    <wire>
-      <p1 x="380" y="420"/>
-      <p2 x="380" y="520"/>
-    </wire>
-    <wire>
-      <p1 x="1020" y="520"/>
-      <p2 x="1020" y="560"/>
     </wire>
     <wire>
       <p1 x="1020" y="260"/>

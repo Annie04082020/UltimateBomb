@@ -7,7 +7,8 @@ entity BIN_decoder is
         EN    : in  STD_LOGIC;
         BIN   : in  STD_LOGIC_VECTOR(7 downto 0);
         Value : out STD_LOGIC_VECTOR(7 downto 0);
-        Seg   : out STD_LOGIC_VECTOR(7 downto 0)  -- High 4-bits: Tens, Low 4-bits: Units
+        Seg   : out STD_LOGIC_VECTOR(7 downto 0);  -- High 4-bits: Tens, Low 4-bits: Units
+        Err   : out STD_LOGIC
     );
 end BIN_decoder;
 
@@ -19,6 +20,12 @@ begin
         variable units_int : integer range 0 to 15;
     begin
         bin_val := to_integer(unsigned(BIN));
+        
+        if bin_val > 99 then
+            Err <= '1';
+        else
+            Err <= '0';
+        end if;
         
         if EN = '0' then
             Value <= (others => '0');
