@@ -29,6 +29,7 @@ graph TD
 
     %% 記憶單元
     subgraph Memory_Unit ["【 記憶單元 】"]
+        M_Setup["Setup Register<br>(遊戲設定暫存)"]:::memory
         M_Mode["Mode Selector<br>(模式設定暫存)"]:::memory
         M_Min["Min Register<br>(下限暫存器)"]:::memory
         M_Max["Max Register<br>(上限暫存器)"]:::memory
@@ -52,15 +53,17 @@ graph TD
 
     %% 輸入 -> 控制與運算
     I_Confirm -->|控制/確認| C_FSM
-    I_Confirm -->|切換模式| M_Mode
+    I_Mode -->|切換模式| M_Mode
     I_Switch -->|猜測值| A_Comp
     I_Switch -->|更新範圍| M_Min & M_Max
+    I_Switch -->|Diff設定| M_Setup
 
     %% 記憶 <-> 控制與運算
-    M_Mode -- "Mode (00~11)" --> C_Level & O_LED & A_Timer
+    M_Mode -- "Mode (00~11)" --> M_Setup
+    M_Setup -- "Locked Mode/Diff" --> C_Level & O_LED & A_Timer
     C_FSM -- "Load_Min" --> M_Min
     C_FSM -- "Load_Max" --> M_Max
-    C_FSM -- "Load_Setup" --> M_Mode
+    C_FSM -- "Load_Setup" --> M_Setup
     M_Min -- "Min 值" --> O_7Seg
     M_Max -- "Max 值" --> O_7Seg
 
