@@ -1887,9 +1887,9 @@ end Behavioral;</string>
         <entry>
           <string>Color</string>
           <awt-color>
-            <red>0</red>
-            <green>0</green>
-            <blue>204</blue>
+            <red>153</red>
+            <green>255</green>
+            <blue>255</blue>
             <alpha>255</alpha>
           </awt-color>
         </entry>
@@ -1901,12 +1901,7 @@ end Behavioral;</string>
       <elementAttributes>
         <entry>
           <string>Color</string>
-          <awt-color>
-            <red>0</red>
-            <green>0</green>
-            <blue>204</blue>
-            <alpha>255</alpha>
-          </awt-color>
+          <awt-color reference="../../../../visualElement[112]/elementAttributes/entry/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="820" y="-120"/>
@@ -1916,12 +1911,7 @@ end Behavioral;</string>
       <elementAttributes>
         <entry>
           <string>Color</string>
-          <awt-color>
-            <red>0</red>
-            <green>0</green>
-            <blue>204</blue>
-            <alpha>255</alpha>
-          </awt-color>
+          <awt-color reference="../../../../visualElement[112]/elementAttributes/entry/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="900" y="-120"/>
@@ -1931,12 +1921,7 @@ end Behavioral;</string>
       <elementAttributes>
         <entry>
           <string>Color</string>
-          <awt-color>
-            <red>0</red>
-            <green>0</green>
-            <blue>204</blue>
-            <alpha>255</alpha>
-          </awt-color>
+          <awt-color reference="../../../../visualElement[112]/elementAttributes/entry/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="980" y="-120"/>
@@ -1946,12 +1931,7 @@ end Behavioral;</string>
       <elementAttributes>
         <entry>
           <string>Color</string>
-          <awt-color>
-            <red>0</red>
-            <green>0</green>
-            <blue>204</blue>
-            <alpha>255</alpha>
-          </awt-color>
+          <awt-color reference="../../../../visualElement[112]/elementAttributes/entry/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1060" y="-120"/>

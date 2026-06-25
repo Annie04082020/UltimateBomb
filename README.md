@@ -88,6 +88,9 @@
   專門負責管理遊戲進度與破關條件。接收控制器傳來的「拆彈成功」脈衝，記錄累計通關數 (`Score`)，並依據玩家選擇的 `Mode` 判斷是否達成最終勝利條件。
 
 ### 記憶單元
+- **遊戲設定暫存器（Setup Register）** - [SetupReg.vhdl](./Memory_Unit/SetupReg.vhdl)：
+
+  負責在遊戲待機（`IDLE`）狀態時，透過接收來自控制器的 `Load_Setup` 致能訊號，將外部設定好的難度 (`diff`) 與模式 (`mode`) 同步寫入暫存。遊戲一旦開始，致能訊號關閉即會鎖定此暫存器，確保玩家無法在遊玩中途切換難度或模式。
 - **模式設定暫存器（Mode Selector）** - [Mode_Selector.vhdl](./Memory_Unit/Mode_Selector.vhdl)：
 
   透過接收玩家的模式切換按鍵 (`Mode_BTN`) 邊緣觸發訊號，循環更新並記憶當前選擇的遊戲難度 (`00`~`11`)，屬於典型的狀態記憶單元。
