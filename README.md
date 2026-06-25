@@ -72,7 +72,7 @@
 
 ## 電路設計
 [流程圖](./FlowChart.png)
-[電路架構](./Stucture.md) 
+[電路架構](./Structure.md) 
 [SM Chart](./smchart.md)
 [狀態圖](./StateDiagram.md)
 
