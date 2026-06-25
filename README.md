@@ -72,9 +72,9 @@
 
 ## 電路設計
 [流程圖](./FlowChart.png)
-[電路架構](./Structure.md)
+[電路架構](./stucture.svg) 
+[架構圖 Markdown](./Structure.md)
 [SM Chart](./smchart.md)
-[SM Chart TXT](./smchart(gemini).txt)
 [狀態圖](./StateDiagram.md)
 
 ## 遊戲元件與功能
