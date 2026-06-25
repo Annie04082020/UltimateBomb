@@ -2,7 +2,7 @@
 
 ## 簡介
 
-114-2 學年度電機系數位邏輯設計實習期末專題，以[Digital](https://github.com/hneemann/digital)模擬電路製作而成，結合拆彈遊戲與終極密碼玩法，催生了這次的複合式數位邏輯遊戲。
+國立台北科技大學 114-2 學年度電機系數位邏輯設計實習期末專題，以 [Digital](https://github.com/hneemann/digital) 模擬電路製作而成，結合拆彈遊戲與終極密碼玩法，催生了這次的複合式數位邏輯遊戲。
 
 ![Circuit](./Circuit.png)
 

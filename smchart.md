@@ -1,9 +1,8 @@
-## 🧠 終極版演算法狀態機圖 (ASM / SM Chart)
+## 演算法狀態機圖 (ASM / SM Chart)
 
-本專案將複雜的遊戲控制與防呆後門邏輯，嚴格依據時脈週期（Clock Cycle）收斂為以下工整的 SM Chart 架構：
+本專題將遊戲控制與防呆後門邏輯，嚴格依據時脈週期（Clock Cycle）收斂為以下 SM Chart 架構：
 
 ```mermaid
-%%{ init: { 'flowchart': { 'curve': 'basis', 'htmlLabels': true } } }%%
 flowchart TD
     %% 狀態樣式定義 (標準數位邏輯電路配色)
     classDef state fill:#E1F5FE,stroke:#03A9F4,stroke-width:2px,color:#000;
