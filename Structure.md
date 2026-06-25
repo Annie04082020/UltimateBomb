@@ -60,6 +60,7 @@ graph TD
     M_Mode -- "Mode (00~11)" --> C_Level & O_LED & A_Timer
     C_FSM -- "Load_Min" --> M_Min
     C_FSM -- "Load_Max" --> M_Max
+    C_FSM -- "Load_Setup" --> M_Mode
     M_Min -- "Min 值" --> O_7Seg
     M_Max -- "Max 值" --> O_7Seg
 
@@ -80,6 +81,7 @@ graph TD
     C_FSM -- "State_Out" --> O_State
     C_Level -- "Progress" --> O_LED
     C_Level -- "Score_BCD" --> O_7Seg
+    O_State -. "Invalid_Input" .- O_State
 ```
 
 ### 如何使用這張圖放到簡報？

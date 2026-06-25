@@ -115,7 +115,7 @@
   內建手刻的英文字型庫，將控制器的狀態碼解碼為 16 段顯示器的控制訊號，以英文單字 (`IDLE`, `NEXT`, `INPUT`, ` WIN `, `LOSE`, `ERROR`) 即時回饋遊戲狀態。
 - **遊戲輸入解碼器（Input Decoder）** - [BCD_2_decoder.vhdl](./Output_Unit/BCD_2_decoder.vhdl) 與 [BIN_decoder.vhdl](./Output_Unit/BIN_decoder.vhdl)：
   
-  根據選擇 `diff` 的難度模式，將玩家當前撥碼輸入以 8-bit BIN 訊號或兩個 4-bit BCD 訊號的方式解碼，若偵測到超過範圍的非法輸入 (如 A~F)，會直接觸發攔截機制。
+  根據選擇 `diff` 的難度模式，將玩家當前撥碼輸入以 8-bit BIN 訊號或兩個 4-bit BCD 訊號的方式解碼，若偵測到超過範圍的非法輸入 (如 BCD 的 A~F，或是 BIN 模式下輸入大於 99)，會直接觸發攔截機制，並輸出 Invalid_Input 訊號。
 
 - **遊戲模式與關卡數顯示器（Mode and Score Display）**：
 
@@ -155,3 +155,5 @@
 - **`Game_Run`**：由控制器輸出的致能訊號，只有在 `GAME` (生死倒數) 狀態下為 1，允許計時器開始扣秒。
 - **`add_time`**：玩家成功拆彈時，控制器發送給計時器的脈衝，觸發獎勵時間加成機制。
 - **`State_Out [2:0]`**：控制器輸出的 3-bit 狀態碼，直接驅動 16-Segment 解碼器顯示對應的英文字樣 (`IDLE`, `NEXT`, `INPUT` 等)。
+- **`Load_Setup`**：由控制器輸出的設定解鎖訊號，僅在待機 (IDLE) 狀態下為 1，允許外部更新難度 (Diff) 與模式 (Mode)；遊戲開始後即降為 0，鎖死設定以防止中途作弊或誤觸。
+- **`Invalid_Input`**：來自輸入解碼器的錯誤偵測訊號，當玩家輸入不合法數字時拉高為 1，觸發 16-Segment 顯示器顯示 `ERROR` 警告。
