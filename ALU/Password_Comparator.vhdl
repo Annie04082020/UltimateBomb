@@ -6,6 +6,7 @@ entity Password_Comparator is
     Port (
         EnterWord : in  STD_LOGIC_VECTOR(7 downto 0);
         Password  : in  STD_LOGIC_VECTOR(7 downto 0);
+        Invalid   : in  STD_LOGIC;  -- 密碼是否無效
         Pass_Gt   : out STD_LOGIC;  -- EnterWord > Password
         Pass_Match: out STD_LOGIC;  -- EnterWord = Password
         Pass_Lt   : out STD_LOGIC   -- EnterWord < Password
@@ -14,7 +15,7 @@ end Password_Comparator;
 
 architecture Behavioral of Password_Comparator is
 begin
-    process(EnterWord, Password)
+    process(EnterWord, Password, Invalid)
         variable val_A : integer;
         variable val_B : integer;
     begin
@@ -26,12 +27,14 @@ begin
         Pass_Match <= '0';
         Pass_Lt <= '0';
         
-        if val_A > val_B then
-            Pass_Gt <= '1';
-        elsif val_A < val_B then
-            Pass_Lt <= '1';
-        else
-            Pass_Match <= '1';
+        if Invalid = '0' then
+            if val_A > val_B then
+                Pass_Gt <= '1';
+            elsif val_A < val_B then
+                Pass_Lt <= '1';
+            else
+                Pass_Match <= '1';
+            end if;
         end if;
     end process;
 end Behavioral;

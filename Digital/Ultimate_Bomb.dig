@@ -1253,7 +1253,7 @@ end Behavioral;</string>
         </entry>
         <entry>
           <string>externalInputs</string>
-          <string>EnterWord:8,Password:8</string>
+          <string>EnterWord:8,Password:8,Invalid</string>
         </entry>
         <entry>
           <string>Width</string>
@@ -1269,6 +1269,7 @@ entity Password_Comparator is
     Port (
         EnterWord : in  STD_LOGIC_VECTOR(7 downto 0);
         Password  : in  STD_LOGIC_VECTOR(7 downto 0);
+        Invalid   : in  STD_LOGIC;  -- 密碼是否無效
         Pass_Gt   : out STD_LOGIC;  -- EnterWord &gt; Password
         Pass_Match: out STD_LOGIC;  -- EnterWord = Password
         Pass_Lt   : out STD_LOGIC   -- EnterWord &lt; Password
@@ -1277,7 +1278,7 @@ end Password_Comparator;
 
 architecture Behavioral of Password_Comparator is
 begin
-    process(EnterWord, Password)
+    process(EnterWord, Password, Invalid)
         variable val_A : integer;
         variable val_B : integer;
     begin
@@ -1289,12 +1290,14 @@ begin
         Pass_Match &lt;= &apos;0&apos;;
         Pass_Lt &lt;= &apos;0&apos;;
         
-        if val_A &gt; val_B then
-            Pass_Gt &lt;= &apos;1&apos;;
-        elsif val_A &lt; val_B then
-            Pass_Lt &lt;= &apos;1&apos;;
-        else
-            Pass_Match &lt;= &apos;1&apos;;
+        if Invalid = &apos;0&apos; then
+            if val_A &gt; val_B then
+                Pass_Gt &lt;= &apos;1&apos;;
+            elsif val_A &lt; val_B then
+                Pass_Lt &lt;= &apos;1&apos;;
+            else
+                Pass_Match &lt;= &apos;1&apos;;
+            end if;
         end if;
     end process;
 end Behavioral;</string>
@@ -1584,7 +1587,7 @@ end Behavioral;</string>
           <int>8</int>
         </entry>
       </elementAttributes>
-      <pos x="360" y="100"/>
+      <pos x="380" y="100"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -2389,7 +2392,7 @@ end Behavioral;</string>
           <string>Levels</string>
         </entry>
       </elementAttributes>
-      <pos x="1380" y="560"/>
+      <pos x="1360" y="620"/>
     </visualElement>
     <visualElement>
       <elementName>Seven-Seg-Hex</elementName>
@@ -2918,7 +2921,7 @@ end Behavioral;</string>
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="260" y="300"/>
+      <pos x="280" y="300"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -2935,8 +2938,8 @@ end Behavioral;</string>
       <p2 x="840" y="320"/>
     </wire>
     <wire>
-      <p1 x="300" y="320"/>
-      <p2 x="320" y="320"/>
+      <p1 x="320" y="320"/>
+      <p2 x="340" y="320"/>
     </wire>
     <wire>
       <p1 x="480" y="640"/>
@@ -2976,7 +2979,7 @@ end Behavioral;</string>
     </wire>
     <wire>
       <p1 x="160" y="580"/>
-      <p2 x="440" y="580"/>
+      <p2 x="420" y="580"/>
     </wire>
     <wire>
       <p1 x="780" y="260"/>
@@ -2995,7 +2998,7 @@ end Behavioral;</string>
       <p2 x="1080" y="260"/>
     </wire>
     <wire>
-      <p1 x="280" y="260"/>
+      <p1 x="300" y="260"/>
       <p2 x="360" y="260"/>
     </wire>
     <wire>
@@ -3027,15 +3030,15 @@ end Behavioral;</string>
       <p2 x="360" y="520"/>
     </wire>
     <wire>
-      <p1 x="380" y="520"/>
-      <p2 x="500" y="520"/>
-    </wire>
-    <wire>
       <p1 x="620" y="520"/>
       <p2 x="740" y="520"/>
     </wire>
     <wire>
-      <p1 x="300" y="200"/>
+      <p1 x="380" y="520"/>
+      <p2 x="580" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="200"/>
       <p2 x="400" y="200"/>
     </wire>
     <wire>
@@ -3063,15 +3066,11 @@ end Behavioral;</string>
       <p2 x="820" y="460"/>
     </wire>
     <wire>
-      <p1 x="440" y="460"/>
-      <p2 x="480" y="460"/>
+      <p1 x="340" y="460"/>
+      <p2 x="560" y="460"/>
     </wire>
     <wire>
-      <p1 x="320" y="460"/>
-      <p2 x="400" y="460"/>
-    </wire>
-    <wire>
-      <p1 x="500" y="460"/>
+      <p1 x="580" y="460"/>
       <p2 x="600" y="460"/>
     </wire>
     <wire>
@@ -3079,12 +3078,12 @@ end Behavioral;</string>
       <p2 x="720" y="460"/>
     </wire>
     <wire>
-      <p1 x="320" y="140"/>
-      <p2 x="360" y="140"/>
+      <p1 x="280" y="140"/>
+      <p2 x="380" y="140"/>
     </wire>
     <wire>
       <p1 x="240" y="140"/>
-      <p2 x="300" y="140"/>
+      <p2 x="260" y="140"/>
     </wire>
     <wire>
       <p1 x="60" y="140"/>
@@ -3115,12 +3114,12 @@ end Behavioral;</string>
       <p2 x="360" y="400"/>
     </wire>
     <wire>
-      <p1 x="380" y="400"/>
-      <p2 x="480" y="400"/>
-    </wire>
-    <wire>
       <p1 x="760" y="400"/>
       <p2 x="1300" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="400"/>
+      <p2 x="480" y="400"/>
     </wire>
     <wire>
       <p1 x="1300" y="400"/>
@@ -3147,12 +3146,16 @@ end Behavioral;</string>
       <p2 x="840" y="340"/>
     </wire>
     <wire>
-      <p1 x="420" y="340"/>
+      <p1 x="440" y="340"/>
       <p2 x="500" y="340"/>
     </wire>
     <wire>
       <p1 x="240" y="340"/>
-      <p2 x="260" y="340"/>
+      <p2 x="280" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="340"/>
+      <p2 x="420" y="340"/>
     </wire>
     <wire>
       <p1 x="500" y="340"/>
@@ -3227,24 +3230,16 @@ end Behavioral;</string>
       <p2 x="180" y="280"/>
     </wire>
     <wire>
-      <p1 x="340" y="280"/>
+      <p1 x="180" y="280"/>
+      <p2 x="400" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="280"/>
       <p2 x="420" y="280"/>
     </wire>
     <wire>
-      <p1 x="180" y="280"/>
-      <p2 x="340" y="280"/>
-    </wire>
-    <wire>
-      <p1 x="240" y="220"/>
-      <p2 x="320" y="220"/>
-    </wire>
-    <wire>
-      <p1 x="120" y="220"/>
-      <p2 x="140" y="220"/>
-    </wire>
-    <wire>
-      <p1 x="780" y="860"/>
-      <p2 x="1040" y="860"/>
+      <p1 x="400" y="540"/>
+      <p2 x="480" y="540"/>
     </wire>
     <wire>
       <p1 x="1040" y="540"/>
@@ -3263,20 +3258,28 @@ end Behavioral;</string>
       <p2 x="800" y="540"/>
     </wire>
     <wire>
-      <p1 x="440" y="540"/>
-      <p2 x="700" y="540"/>
-    </wire>
-    <wire>
       <p1 x="100" y="540"/>
       <p2 x="240" y="540"/>
     </wire>
     <wire>
-      <p1 x="80" y="800"/>
-      <p2 x="180" y="800"/>
+      <p1 x="560" y="540"/>
+      <p2 x="700" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="220"/>
+      <p2 x="280" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="220"/>
+      <p2 x="140" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="860"/>
+      <p2 x="1040" y="860"/>
     </wire>
     <wire>
       <p1 x="300" y="480"/>
-      <p2 x="380" y="480"/>
+      <p2 x="320" y="480"/>
     </wire>
     <wire>
       <p1 x="60" y="480"/>
@@ -3287,24 +3290,28 @@ end Behavioral;</string>
       <p2 x="1440" y="480"/>
     </wire>
     <wire>
-      <p1 x="400" y="480"/>
-      <p2 x="440" y="480"/>
-    </wire>
-    <wire>
       <p1 x="740" y="480"/>
       <p2 x="820" y="480"/>
     </wire>
     <wire>
+      <p1 x="80" y="800"/>
+      <p2 x="180" y="800"/>
+    </wire>
+    <wire>
       <p1 x="360" y="160"/>
-      <p2 x="380" y="160"/>
+      <p2 x="400" y="160"/>
     </wire>
     <wire>
       <p1 x="240" y="160"/>
-      <p2 x="300" y="160"/>
+      <p2 x="340" y="160"/>
     </wire>
     <wire>
       <p1 x="60" y="160"/>
       <p2 x="140" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="100"/>
+      <p2 x="380" y="100"/>
     </wire>
     <wire>
       <p1 x="160" y="420"/>
@@ -3323,16 +3330,12 @@ end Behavioral;</string>
       <p2 x="780" y="420"/>
     </wire>
     <wire>
-      <p1 x="300" y="100"/>
-      <p2 x="360" y="100"/>
-    </wire>
-    <wire>
       <p1 x="720" y="740"/>
       <p2 x="1100" y="740"/>
     </wire>
     <wire>
       <p1 x="140" y="740"/>
-      <p2 x="420" y="740"/>
+      <p2 x="440" y="740"/>
     </wire>
     <wire>
       <p1 x="240" y="680"/>
@@ -3383,12 +3386,16 @@ end Behavioral;</string>
       <p2 x="540" y="300"/>
     </wire>
     <wire>
+      <p1 x="260" y="300"/>
+      <p2 x="280" y="300"/>
+    </wire>
+    <wire>
       <p1 x="660" y="620"/>
       <p2 x="680" y="620"/>
     </wire>
     <wire>
       <p1 x="400" y="620"/>
-      <p2 x="420" y="620"/>
+      <p2 x="440" y="620"/>
     </wire>
     <wire>
       <p1 x="1020" y="620"/>
@@ -3399,12 +3406,12 @@ end Behavioral;</string>
       <p2 x="140" y="620"/>
     </wire>
     <wire>
-      <p1 x="420" y="620"/>
-      <p2 x="500" y="620"/>
-    </wire>
-    <wire>
       <p1 x="140" y="620"/>
       <p2 x="280" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="620"/>
+      <p2 x="500" y="620"/>
     </wire>
     <wire>
       <p1 x="60" y="240"/>
@@ -3423,7 +3430,7 @@ end Behavioral;</string>
       <p2 x="1120" y="560"/>
     </wire>
     <wire>
-      <p1 x="440" y="560"/>
+      <p1 x="420" y="560"/>
       <p2 x="720" y="560"/>
     </wire>
     <wire>
@@ -3432,7 +3439,7 @@ end Behavioral;</string>
     </wire>
     <wire>
       <p1 x="380" y="180"/>
-      <p2 x="420" y="180"/>
+      <p2 x="440" y="180"/>
     </wire>
     <wire>
       <p1 x="240" y="180"/>
@@ -3459,7 +3466,7 @@ end Behavioral;</string>
       <p2 x="1440" y="500"/>
     </wire>
     <wire>
-      <p1 x="380" y="500"/>
+      <p1 x="320" y="500"/>
       <p2 x="600" y="500"/>
     </wire>
     <wire>
@@ -3487,16 +3494,16 @@ end Behavioral;</string>
       <p2 x="1160" y="440"/>
     </wire>
     <wire>
-      <p1 x="340" y="440"/>
-      <p2 x="440" y="440"/>
-    </wire>
-    <wire>
       <p1 x="720" y="440"/>
       <p2 x="740" y="440"/>
     </wire>
     <wire>
-      <p1 x="400" y="120"/>
-      <p2 x="420" y="120"/>
+      <p1 x="340" y="440"/>
+      <p2 x="480" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="120"/>
+      <p2 x="440" y="120"/>
     </wire>
     <wire>
       <p1 x="40" y="700"/>
@@ -3519,12 +3526,12 @@ end Behavioral;</string>
       <p2 x="200" y="380"/>
     </wire>
     <wire>
-      <p1 x="360" y="380"/>
-      <p2 x="460" y="380"/>
-    </wire>
-    <wire>
       <p1 x="780" y="380"/>
       <p2 x="1220" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="380"/>
+      <p2 x="460" y="380"/>
     </wire>
     <wire>
       <p1 x="1220" y="380"/>
@@ -3535,7 +3542,7 @@ end Behavioral;</string>
       <p2 x="1120" y="60"/>
     </wire>
     <wire>
-      <p1 x="280" y="60"/>
+      <p1 x="300" y="60"/>
       <p2 x="540" y="60"/>
     </wire>
     <wire>
@@ -3567,6 +3574,10 @@ end Behavioral;</string>
       <p2 x="1280" y="460"/>
     </wire>
     <wire>
+      <p1 x="260" y="180"/>
+      <p2 x="260" y="300"/>
+    </wire>
+    <wire>
       <p1 x="260" y="600"/>
       <p2 x="260" y="640"/>
     </wire>
@@ -3575,8 +3586,8 @@ end Behavioral;</string>
       <p2 x="260" y="720"/>
     </wire>
     <wire>
-      <p1 x="260" y="180"/>
-      <p2 x="260" y="300"/>
+      <p1 x="260" y="100"/>
+      <p2 x="260" y="140"/>
     </wire>
     <wire>
       <p1 x="1160" y="300"/>
@@ -3627,8 +3638,12 @@ end Behavioral;</string>
       <p2 x="1420" y="860"/>
     </wire>
     <wire>
-      <p1 x="400" y="460"/>
-      <p2 x="400" y="480"/>
+      <p1 x="400" y="140"/>
+      <p2 x="400" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="280"/>
+      <p2 x="400" y="540"/>
     </wire>
     <wire>
       <p1 x="1040" y="860"/>
@@ -3647,12 +3662,8 @@ end Behavioral;</string>
       <p2 x="1300" y="400"/>
     </wire>
     <wire>
-      <p1 x="280" y="60"/>
-      <p2 x="280" y="260"/>
-    </wire>
-    <wire>
-      <p1 x="280" y="260"/>
-      <p2 x="280" y="300"/>
+      <p1 x="280" y="140"/>
+      <p2 x="280" y="220"/>
     </wire>
     <wire>
       <p1 x="540" y="60"/>
@@ -3687,24 +3698,20 @@ end Behavioral;</string>
       <p2 x="1440" y="480"/>
     </wire>
     <wire>
-      <p1 x="420" y="340"/>
-      <p2 x="420" y="620"/>
-    </wire>
-    <wire>
       <p1 x="420" y="240"/>
       <p2 x="420" y="260"/>
-    </wire>
-    <wire>
-      <p1 x="420" y="120"/>
-      <p2 x="420" y="180"/>
     </wire>
     <wire>
       <p1 x="420" y="280"/>
       <p2 x="420" y="320"/>
     </wire>
     <wire>
-      <p1 x="420" y="620"/>
-      <p2 x="420" y="740"/>
+      <p1 x="420" y="560"/>
+      <p2 x="420" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="340"/>
+      <p2 x="420" y="380"/>
     </wire>
     <wire>
       <p1 x="1060" y="620"/>
@@ -3735,12 +3742,16 @@ end Behavioral;</string>
       <p2 x="1320" y="840"/>
     </wire>
     <wire>
-      <p1 x="300" y="160"/>
-      <p2 x="300" y="200"/>
+      <p1 x="300" y="60"/>
+      <p2 x="300" y="260"/>
     </wire>
     <wire>
-      <p1 x="300" y="100"/>
-      <p2 x="300" y="140"/>
+      <p1 x="300" y="260"/>
+      <p2 x="300" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="460"/>
+      <p2 x="560" y="540"/>
     </wire>
     <wire>
       <p1 x="1200" y="260"/>
@@ -3759,24 +3770,24 @@ end Behavioral;</string>
       <p2 x="1460" y="400"/>
     </wire>
     <wire>
-      <p1 x="440" y="440"/>
-      <p2 x="440" y="460"/>
+      <p1 x="440" y="340"/>
+      <p2 x="440" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="120"/>
+      <p2 x="440" y="180"/>
     </wire>
     <wire>
       <p1 x="440" y="220"/>
       <p2 x="440" y="280"/>
     </wire>
     <wire>
-      <p1 x="440" y="480"/>
-      <p2 x="440" y="540"/>
-    </wire>
-    <wire>
-      <p1 x="440" y="560"/>
-      <p2 x="440" y="580"/>
-    </wire>
-    <wire>
       <p1 x="440" y="280"/>
       <p2 x="440" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="620"/>
+      <p2 x="440" y="740"/>
     </wire>
     <wire>
       <p1 x="1080" y="520"/>
@@ -3823,12 +3834,8 @@ end Behavioral;</string>
       <p2 x="60" y="880"/>
     </wire>
     <wire>
-      <p1 x="320" y="140"/>
-      <p2 x="320" y="220"/>
-    </wire>
-    <wire>
-      <p1 x="320" y="320"/>
-      <p2 x="320" y="460"/>
+      <p1 x="320" y="480"/>
+      <p2 x="320" y="500"/>
     </wire>
     <wire>
       <p1 x="960" y="20"/>
@@ -3841,6 +3848,10 @@ end Behavioral;</string>
     <wire>
       <p1 x="580" y="80"/>
       <p2 x="580" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="460"/>
+      <p2 x="580" y="520"/>
     </wire>
     <wire>
       <p1 x="1220" y="240"/>
@@ -3903,12 +3914,20 @@ end Behavioral;</string>
       <p2 x="80" y="800"/>
     </wire>
     <wire>
-      <p1 x="340" y="280"/>
+      <p1 x="340" y="320"/>
       <p2 x="340" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="160"/>
+      <p2 x="340" y="200"/>
     </wire>
     <wire>
       <p1 x="340" y="800"/>
       <p2 x="340" y="820"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="440"/>
+      <p2 x="340" y="460"/>
     </wire>
     <wire>
       <p1 x="980" y="240"/>
@@ -3951,7 +3970,7 @@ end Behavioral;</string>
       <p2 x="480" y="680"/>
     </wire>
     <wire>
-      <p1 x="480" y="460"/>
+      <p1 x="480" y="540"/>
       <p2 x="480" y="580"/>
     </wire>
     <wire>
@@ -3999,16 +4018,16 @@ end Behavioral;</string>
       <p2 x="360" y="420"/>
     </wire>
     <wire>
-      <p1 x="360" y="780"/>
-      <p2 x="360" y="800"/>
-    </wire>
-    <wire>
       <p1 x="360" y="160"/>
       <p2 x="360" y="260"/>
     </wire>
     <wire>
+      <p1 x="360" y="780"/>
+      <p2 x="360" y="800"/>
+    </wire>
+    <wire>
       <p1 x="360" y="260"/>
-      <p2 x="360" y="380"/>
+      <p2 x="360" y="340"/>
     </wire>
     <wire>
       <p1 x="360" y="420"/>
@@ -4041,10 +4060,6 @@ end Behavioral;</string>
     <wire>
       <p1 x="500" y="260"/>
       <p2 x="500" y="340"/>
-    </wire>
-    <wire>
-      <p1 x="500" y="460"/>
-      <p2 x="500" y="520"/>
     </wire>
     <wire>
       <p1 x="760" y="440"/>
@@ -4083,20 +4098,12 @@ end Behavioral;</string>
       <p2 x="1400" y="280"/>
     </wire>
     <wire>
-      <p1 x="380" y="180"/>
-      <p2 x="380" y="400"/>
-    </wire>
-    <wire>
       <p1 x="380" y="520"/>
       <p2 x="380" y="540"/>
     </wire>
     <wire>
-      <p1 x="380" y="480"/>
-      <p2 x="380" y="500"/>
-    </wire>
-    <wire>
-      <p1 x="380" y="140"/>
-      <p2 x="380" y="160"/>
+      <p1 x="380" y="180"/>
+      <p2 x="380" y="400"/>
     </wire>
     <wire>
       <p1 x="1020" y="260"/>
