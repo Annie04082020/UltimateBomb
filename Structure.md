@@ -44,6 +44,7 @@ graph TD
 
     %% 輸出單元
     subgraph Output_Unit ["【 輸出單元 】"]
+        O_Decoder["Input Decoder<br>(輸入解碼與防呆)"]:::output
         O_State["16-SEG Decoder<br>(英文狀態顯示)"]:::output
         O_LED["ROM LED Arranger<br>(進度條顯示)"]:::output
         O_7Seg["7-SEG Displays<br>(上下限/倒數/分數)"]:::output
@@ -55,6 +56,7 @@ graph TD
     I_Confirm -->|控制/確認| C_FSM
     I_Mode -->|切換模式| M_Mode
     I_Switch -->|猜測值| A_Comp
+    I_Switch -->|原始輸入| O_Decoder
     I_Switch -->|更新範圍| M_Min & M_Max
     I_Switch -->|Diff設定| M_Setup
 
@@ -84,7 +86,9 @@ graph TD
     C_FSM -- "State_Out" --> O_State
     C_Level -- "Progress" --> O_LED
     C_Level -- "Score_BCD" --> O_7Seg
-    O_State -. "Invalid_Input" .- O_State
+    
+    %% 防呆攔截訊號 (Input Decoder)
+    O_Decoder -- "Invalid" --> A_Comp & O_State
 ```
 
 ### 如何使用這張圖放到簡報？
