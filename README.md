@@ -8,6 +8,8 @@
 
 [Digital Game File](./Digital/Ultimate_Bomb.dig)
 
+[2026 NTUT EE Digital Logic Lab Final Project | Ultimate Bomb](https://www.youtube.com/watch?v=1ahN5QPq28g)
+
 指導教授： 吳昭正 副教授
 
 ## 組員與分工
